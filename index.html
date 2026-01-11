@@ -1,0 +1,3372 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+ <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>دليل شامل لإدخال شفرات BISS</title>
+  <meta name="description" content="دليل شامل ومحدث 2026 لإدخال شفرات BISS Keys على كل أنواع الرسيفرات (ستار، جيانت، أوبن بوكس، إيكو لينك، فينوس، تيكنوسات، نيوماكس وغيرها). خطوة بخطوة مع صور وأكواد صحيحة. افتح القنوات المشفرة بسهولة!">
+  
+  <!-- Css File -->
+  <link rel="stylesheet" href="./style.css" />
+ </head>
+ <body>
+  <header>
+   <p>الدليل الشامل لإدخال شفرات BISS على جميع أجهزة الرسيفرات HD و SD</p>
+  </header>
+
+  <div class="container">
+   <h2>دليل إدخال شفرات BISS لجميع الأجهزة</h2>
+
+   <!-- search -->
+   <div class="search-box">
+    <input type="text" id="searchInput" placeholder="اكتب نوع او اسم الرسيفر بتاعك " />
+   </div>
+   <!-- not exist device -->
+   <div class="missing-box">
+    <button id="openForm">جهازك مش موجود؟</button>
+   </div>
+
+   <!-- note -->
+   <div class="note">
+    ملاحظة هامة :
+    <br />
+    اكتب اسم الرسيفر مباشرة بتاعك ب العربى لو مظهرش اكتبو بالانجليزى
+    <br />
+    لو مظهرش فى الحالتين اكتب رقم او نوع المعالج (مثال : ستارسات-starsat-1506)
+   </div>
+   <!-- model -->
+   <details>
+    <summary>ازاى تعرف نوع المعالج بتاعك</summary>
+    <div class="steps">
+     <ol>
+      <li>هتعمل بحث على جوجل ب اسم الرسيفر وتعرف نوع المعالج بتاعو او هتدوس منيو | menu من الريموت</li>
+      <li>دور على معلومات الرسيفر</li>
+      <li>
+       دور على كلمة من الكلمات دى<br />
+       H/W version <br />
+       H/W نسخة <br />
+       اصدار الهاردوير <br />
+       id النموذج <br />
+       نسخة البرنامج <br />
+       model id
+      </li>
+      <li>هتجرب تعمل بحث فى المربع فوق ب الكلام المكتوب قصادك</li>
+      <li>لو معرفتش هتاخد الارقام او الكلام المكتوب وتعمل بحث على جوجل تعرف اسم ونوع المعالج اى</li>
+      <li>
+       مثال : <br />
+       dvbs-1506tv-V1.O-OTP-SO => <br />
+       ده اسمو معالج صن بلص sanplus 1506tv وفيه انواع تانى كتير
+      </li>
+     </ol>
+    </div>
+   </details>
+
+   <details>
+    <summary>لو نوع جهازك مش معروف</summary>
+    <div class="steps">
+     <ol>
+      <li>هتدوس منيو menu من الريموت</li>
+      <li>هتروح على الوسائط المتعددة</li>
+      <li>وهتجرب كل الارقام دى</li>
+      <li>2778</li>
+      <li>1506</li>
+      <li>8888</li>
+      <li>9999</li>
+      <li>1234</li>
+      <li>8899</li>
+      <li>2733</li>
+      <li>3738</li>
+      <li>2738</li>
+      <li>2030</li>
+      <li>7979</li>
+      <li>9988</li>
+      <li>2446</li>
+      <li>2046</li>
+      <li>2024</li>
+      <li>6666</li>
+      <li>3328</li>
+      <li>3329</li>
+      <li>6789</li>
+      <li>3797</li>
+      <li>1668</li>
+      <li>9339</li>
+      <li>3399</li>
+      <li>9933</li>
+      <li>لو منفعش جرب تشغل القناة عادى وجرب الارقام تانى وانت جايب القناة</li>
+      <li>او جرب تدوس  menu بس وجرب الارقام تانى</li>
+     </ol>
+    </div>
+   </details>
+
+   <details>
+    <summary>الصن بلص (معظم الأجهزة) و اجهزة داكي ريموت تايمر</summary>
+    <div class="steps">
+     <ol>
+      <li>وقف على القناة المشفرة</li>
+      <li>اضغط زر 0</li>
+      <li>تظهر مربع الشفرات</li>
+      <li>ادخل الشفرة ثم OK</li>
+     </ol>
+    </div>
+   </details>
+
+   <details>
+    <summary>اجهزة صن بلص للسوفتات القديمه</summary>
+    <div class="steps">
+     <ol>
+      <li>menu</li>
+      <li>هتفتح الوسائط المتعددة</li>
+      <li>هتكتب الاكواد المرفقة تحت دى لأظهار قوائم التشفير</li>
+      <li>1506 - 1512 - 1507 - 2507</li>
+      <li>بعدها هيظهرك قوائم فك التشفير عن طريق كلمة Patch</li>
+      <li>اختار تشفير بيس اكتب التشفير</li>
+     </ol>
+    </div>
+   </details>
+
+   <details>
+    <summary>شرح اضافة **** بيس للمعالج 1506c/1512</summary>
+    <div class="steps">
+     <ol>
+      <li>تقف علي الاعدادات في اجهزة اخري مكتوبة مقرر</li>
+      <li>تقف عليها وتكتب 9999</li>
+      <li>هيظهر من الاعدادات او كلمة مقرر في القائمة الخاصة بيها كلمة protocol</li>
+      <li>وبعدها تروح للقناة الجزائرية الأرضية اضغط علي زر Goto هيظهرك كاتبة ******</li>
+      <li>هتكتب ****** للقناة الجزائرية الأرضية ومبروك عليك</li>
+     </ol>
+    </div>
+   </details>
+
+   <details>
+    <summary>رسيفرات صينية معالج Ali (ريموت صف واحد)</summary>
+    <div class="steps">
+     <ol>
+      <li>وقف على القناة المشفرة</li>
+      <li>اضغط Info</li>
+      <li>اضغط 1234</li>
+      <li>اكتب الشفرة وموافق</li>
+     </ol>
+    </div>
+   </details>
+
+   <details>
+    <summary>فورتك ستار H5 HD MINI (معالج مونتاج الأحمر)</summary>
+    <div class="steps">
+     <ol>
+      <li>اضغط على الرقم 9878</li>
+      <li>سيظهر لك "تم التفعيل"</li>
+      <li>اضغط Menu</li>
+      <li>اذهب إلى قائمة القنوات</li>
+      <li>اختر Key Edit</li>
+      <li>اختر Biss</li>
+      <li>أدخل الشفرات المطلوبة</li>
+     </ol>
+    </div>
+   </details>
+
+   <!--  -->
+   <details>
+    <summary>اجهزة فانيلا الريموت من تحت اخر زر علي يدك الشمال مكتوبة عليه LM</summary>
+    <div class="steps">
+     <ol>
+      <li>اقف علي القناة اكتب من الريموت 8899</li>
+      <li>بعد كدة اضغط علي الزر اللي تحت الاصفر واكتب الشفرة</li>
+      <li>اصغط علي الازرق ومبروك عليك</li>
+     </ol>
+    </div>
+   </details>
+
+   <!--  -->
+   <details>
+    <summary>ترومان 9090 HD</summary>
+    <div class="steps">
+     <ol>
+      <li>اقف على القناة واكتب 9339</li>
+      <li>فتظهر الصفحه بها قائمه ******* اختر منها قائمه ***** Biss</li>
+     </ol>
+    </div>
+   </details>
+
+   <!--  -->
+   <details>
+    <summary>ترومان x3 mini HD اوx2او x5</summary>
+    <div class="steps">
+     <ol>
+      <li>منيو 8686 هتظهر كلمة باتش Patch</li>
+      <li>فتظهر الصفحه بها قائمه ******* اختر منها قائمه ***** Biss</li>
+     </ol>
+    </div>
+   </details>
+
+   <!--  -->
+   <details>
+    <summary>ترومان Option 270 HD</summary>
+    <div class="steps">
+     <ol>
+      <li>Menu</li>
+      <li>Setting</li>
+      <li>Plugin Manage</li>
+      <li>Type: Patch , Status: On</li>
+      <li>إضغط Exit للخروج</li>
+      <li>ثم إضغط 8282 لتعديل *******</li>
+     </ol>
+    </div>
+   </details>
+
+   <!--  -->
+   <details>
+    <summary>ستار سات HD 2090 او 2080 او 2060 او 2050 او 2070</summary>
+    <div class="steps">
+     <ol>
+      <li>اقف على القناة واضغط 8888</li>
+     </ol>
+    </div>
+   </details>
+
+   <!--  -->
+   <details>
+    <summary>ستار سات 3000 HD</summary>
+    <div class="steps">
+     <ol>
+      <li>اضغط على منيو ثم 8888</li>
+      <li>فتظهر الصفحه بها قائمه ******* اختر منها قائمه ***** Biss</li>
+     </ol>
+    </div>
+   </details>
+
+   <details>
+    <summary>ستار سات 2000 AEC HD</summary>
+    <div class="steps">
+     <ol>
+      <li>اقف على القناة</li>
+      <li>اضغط F1 + 333</li>
+     </ol>
+    </div>
+   </details>
+   <details>
+    <summary>ستار سات 6969 HD</summary>
+    <div class="steps">
+     <ol>
+      <li>اقف على القناة</li>
+      <li>اضغط info + 1</li>
+     </ol>
+    </div>
+   </details>
+   <details>
+    <summary>كيوماكس 999 HD (Joker V1 / V2 / H1–H6 / H2 Mini)</summary>
+    <div class="steps">
+     <ol>
+      <li>اقف على القناة</li>
+      <li>اضغط PAGE من الريموت او اضغط Menu</li>
+      <li>اذهب الى التركيب</li>
+      <li>اختر قائمة الكودات</li>
+      <li>سيظهر جدول الانظمة</li>
+      <li>غير نظام التشفير بزر الصوت يمين او شمال حتى تصل الى Biss</li>
+      <li>اضغط اضافة من الزر الاخضر او الاحمر</li>
+      <li>ادخل كود القناة</li>
+      <li>اضغط OK</li>
+     </ol>
+    </div>
+   </details>
+   <details>
+    <summary>كيوماكس 999 جوكر (V3 / V2.2)</summary>
+    <div class="steps">
+     <ol>
+      <li>اقف على القناة</li>
+      <li>اضغط F1 + 333</li>
+     </ol>
+    </div>
+   </details>
+   <details>
+    <summary>فورتك 999 HD</summary>
+    <div class="steps">
+     <ol>
+      <li>اضغط Menu</li>
+      <li>اضغط 8888</li>
+     </ol>
+    </div>
+   </details>
+   <details>
+    <summary>Sky Xpress 2 HD</summary>
+    <div class="steps">
+     <ol>
+      <li>اضغط Menu</li>
+      <li>اذهب الى الخيار الثاني نظام التليفزيون واضغط OK</li>
+      <li>اضغط 0000</li>
+      <li>اضغط الزر الاحمر</li>
+      <li>اختر قائمة Biss</li>
+     </ol>
+    </div>
+   </details>
+   <details>
+    <summary>HED V2 HD</summary>
+    <div class="steps">
+     <ol>
+      <li>اضغط Menu</li>
+      <li>اضغط 8888</li>
+      <li>اختر قائمة Biss</li>
+     </ol>
+    </div>
+   </details>
+   <details>
+    <summary>الشيكي بوكس HD</summary>
+    <div class="steps">
+     <ol>
+      <li>اقف على القناة</li>
+      <li>اضغط الزر الازرق من الريموت</li>
+     </ol>
+    </div>
+   </details>
+   <details>
+    <summary>AVATAR 1000 HD MINI</summary>
+    <div class="steps">
+     <ol>
+      <li>اقف على القناة</li>
+      <li>اضغط الزر الذي اسفل الزر الاصفر</li>
+     </ol>
+    </div>
+   </details>
+
+   <details>
+    <summary>نيوماكس 774 HD</summary>
+    <div class="steps">
+     <ol>
+      <li>اضغط Menu</li>
+      <li>اضغط 8888</li>
+      <li>اختر قائمة Biss</li>
+     </ol>
+    </div>
+   </details>
+   <details>
+    <summary>بانسات 9090 HD</summary>
+    <div class="steps">
+     <ol>
+      <li>اضغط Menu</li>
+      <li>اضغط 8888</li>
+      <li>اختر قائمة Biss</li>
+     </ol>
+    </div>
+   </details>
+   <details>
+    <summary>Target HD 907</summary>
+    <div class="steps">
+     <ol>
+      <li>اضغط Menu</li>
+      <li>اختر Setting</li>
+      <li>اختر xcam setup</li>
+      <li>اختر Patch</li>
+     </ol>
+    </div>
+   </details>
+   <details>
+    <summary>البرفكس 7400h / 8000h / 8000h1 / كامكس 777 / Mini 8000</summary>
+    <div class="steps">
+     <ol>
+      <li>اكتب 8612</li>
+     </ol>
+    </div>
+   </details>
+   <details>
+    <summary>JAGUAR-AG 9000 HD</summary>
+    <div class="steps">
+     <ol>
+      <li>اضغط Menu</li>
+      <li>اضغط 8888</li>
+      <li>اختر قائمة Biss</li>
+     </ol>
+    </div>
+   </details>
+
+   <details>
+    <summary>فورتك ستار H5 HD MINI (معالج مونتاج الأحمر)</summary>
+    <div class="steps">
+     <ol>
+      <li>اضغط على الرقم 9878</li>
+      <li>سيظهر لك "تم التفعيل"</li>
+      <li>اضغط Menu</li>
+      <li>اذهب إلى قائمة القنوات</li>
+      <li>اختر Key Edit</li>
+      <li>اختر Biss</li>
+      <li>أدخل الشفرات المطلوبة</li>
+     </ol>
+    </div>
+   </details>
+
+   <details>
+    <summary>عائلة سامسات التابعة لمورسات (Samsat 80HD - 70HD - 90HD - 50HD - 560 - 570 - 580)</summary>
+    <div class="steps">
+     <ol>
+      <li>Menu</li>
+      <li>outils</li>
+      <li>cas</li>
+      <li>fcas options</li>
+      <li>key editor</li>
+     </ol>
+    </div>
+   </details>
+
+   <details>
+    <summary>عائلة لموريسات (Mu - nu - Lambda)</summary>
+    <div class="steps">
+     <ol>
+      <li>Menu</li>
+      <li>outils</li>
+      <li>cas</li>
+      <li>fcas options</li>
+      <li>key editor</li>
+     </ol>
+    </div>
+   </details>
+
+   <details>
+    <summary>
+     أجهزة متعددة (ALI 3329C و Univers 4113 و Vision X210 و Echolink EL-700 و Cobra و Condor 5500 و Digi Class و FTE MAX و GOLDVISION و SAMSAT و Starsat و Stream وغيرها)
+    </summary>
+    <div class="steps">
+     <ol>
+      <li>اضغط menu + 2020 للتفعيل</li>
+      <li>Menu → outils → KeyEditor</li>
+      <li>اختر نوع التشفير</li>
+      <li>إذا كانت Biss أو DCW: لازم تكون واقف على القناة المشفرة</li>
+     </ol>
+    </div>
+   </details>
+
+   <details>
+    <summary>Revolution Galaxy 60/60</summary>
+    <div class="steps">
+     <ol>
+      <li>menu + 8888</li>
+      <li>بالزر الأزرق اختر نظام التشفير</li>
+      <li>ابحث عن اسم الباقة أو اذهب لآخر سطر واضغط OK</li>
+      <li>ادخل الشفرات بالأرقام والحروف</li>
+     </ol>
+    </div>
+   </details>
+
+   <details>
+    <summary>Galaxy Innovation S2235 Plus</summary>
+    <div class="steps">
+     <ol>
+      <li>اضغط Info</li>
+      <li>اضغط الزر الأحمر مرتين</li>
+      <li>ادخل الشفرات ثم OK لحفظ</li>
+     </ol>
+    </div>
+   </details>
+
+   <details>
+    <summary>Geant 2500 HD New</summary>
+    <div class="steps">
+     <ol>
+      <li>F1 + 444</li>
+      <li>أو Menu → Installation → Liste Code</li>
+     </ol>
+    </div>
+   </details>
+
+   <details>
+    <summary>Geant 2500 HD / 5500 / 3001 Titanium</summary>
+    <div class="steps">
+     <ol>
+      <li>وقف على القناة المشفرة</li>
+      <li>Info + 0</li>
+      <li>زر أحمر للتعديل</li>
+      <li>زر أزرق لإظهار باقي الأنظمة</li>
+     </ol>
+    </div>
+   </details>
+
+   <details>
+    <summary>Geant 2500 HD New Plus</summary>
+    <div class="steps">
+     <ol>
+      <li>Menu</li>
+      <li>Installation</li>
+      <li>Menu Patch</li>
+     </ol>
+    </div>
+   </details>
+
+   <details>
+    <summary>Geant 88 HD Plus</summary>
+    <div class="steps">
+     <ol>
+      <li>وقف على القناة</li>
+      <li>F1 + 333</li>
+      <li>اختر Éditer</li>
+      <li>OK وادخل الشفرة</li>
+     </ol>
+    </div>
+   </details>
+
+   <details>
+    <summary>أجهزة Geant والشبيهة عامة</summary>
+    <div class="steps">
+     <p><strong>الطريقة الأولى:</strong></p>
+     <ol>
+      <li>وقف على القناة المشفرة</li>
+      <li>F1 + 333 ثم Edit</li>
+      <li>ادخل الشفرة</li>
+     </ol>
+     <p><strong>الطريقة الثانية:</strong></p>
+     <ol>
+      <li>Menu → Installation (0000)</li>
+      <li>Menu Patch</li>
+      <li>اختر النظام (Biss, Irdeto, إلخ)</li>
+      <li>Provider → Key → OK</li>
+     </ol>
+    </div>
+   </details>
+
+   <details>
+    <summary>Pinnacle IP9500 HD</summary>
+    <div class="steps">
+     <ol>
+      <li>Menu</li>
+      <li>Réglage</li>
+      <li>Extension</li>
+      <li>Patch Menu</li>
+     </ol>
+    </div>
+   </details>
+
+   <details>
+    <summary>أجهزة Tiger العائلة T</summary>
+    <div class="steps">
+     <ol>
+      <li>وقف على قناة مشفرة</li>
+      <li>F2 + 222</li>
+      <li>زر أحمر أو أزرق للإضافة/التعديل</li>
+      <li>ادخل الشفرة ثم OK</li>
+     </ol>
+    </div>
+   </details>
+
+   <details>
+    <summary>Tiger T6 Class HD + Tiger T800 HD</summary>
+    <div class="steps">
+     <ol>
+      <li>Menu → Installation → Patch Menu</li>
+     </ol>
+    </div>
+   </details>
+   <details>
+    <summary>Star Live Plus 1 Sky V2</summary>
+    <div class="steps">
+     <ol>
+      <li>اضغط على زرار Biss من الريموت</li>
+     </ol>
+    </div>
+   </details>
+
+   <details>
+    <summary>HELYOSTAR HS-380 HD</summary>
+    <div class="steps">
+     <ol>
+      <li>اكتب 8899</li>
+      <li>اقف على القناة</li>
+      <li>اضغط الزر الذي تحت الزر الاصفر</li>
+     </ol>
+    </div>
+   </details>
+
+   <details>
+    <summary>STAR TREK 1818 HD</summary>
+    <div class="steps">
+     <ol>
+      <li>اقف على القناة</li>
+      <li>اضغط 0</li>
+     </ol>
+    </div>
+   </details>
+
+   <details>
+    <summary>STAR TRACK DREAM WORLD HD</summary>
+    <div class="steps">
+     <ol>
+      <li>اقف على القناة</li>
+      <li>اضغط الزر الاخضر</li>
+     </ol>
+    </div>
+   </details>
+
+   <details>
+    <summary>STAR TRACK 7700 HD</summary>
+    <div class="steps">
+     <ol>
+      <li>اضغط Menu</li>
+      <li>اضغط 88888</li>
+     </ol>
+    </div>
+   </details>
+
+   <details>
+    <summary>HERSHMAN 1000 HD</summary>
+    <div class="steps">
+     <ol>
+      <li>اقف على القناة</li>
+      <li>اضغط F1 + 333</li>
+     </ol>
+    </div>
+   </details>
+
+   <details>
+    <summary>ريد بوكس 6000 HD</summary>
+    <div class="steps">
+     <ol>
+      <li>اضغط Menu</li>
+      <li>اضغط 6666</li>
+      <li>ادخل على الكلمة التي تظهر اسفل الصفحة</li>
+     </ol>
+    </div>
+   </details>
+
+   <details>
+    <summary>STARSAT SR-9797HD</summary>
+    <div class="steps">
+     <ol>
+      <li>اضغط F1 + 111</li>
+      <li>اختر Twin Protocol</li>
+      <li>اضغط Menu</li>
+      <li>اختر installation</li>
+      <li>اختر PATCH MENU</li>
+      <li>اختر قائمة Biss</li>
+     </ol>
+    </div>
+   </details>
+
+   <details>
+    <summary>STAR SAT SR-9999 HD</summary>
+    <div class="steps">
+     <ol>
+      <li>اضغط Menu</li>
+      <li>اختر installation</li>
+      <li>اختر PATCH MENU</li>
+      <li>اختر قائمة Biss</li>
+     </ol>
+    </div>
+   </details>
+
+   <details>
+    <summary>TIGER TG-100 PLUS HD</summary>
+    <div class="steps">
+     <ol>
+      <li>اضغط Menu</li>
+      <li>اختر CHANNEL</li>
+      <li>اقف على CHANNEL SETUP</li>
+      <li>اكتب 8888</li>
+      <li>اقف على القناة</li>
+      <li>اضغط GOTO</li>
+     </ol>
+    </div>
+   </details>
+   <details>
+    <summary>TIGER 7110 PLUS HD</summary>
+    <div class="steps">
+     <ol>
+      <li>اقف على القناة</li>
+      <li>اضغط INFO</li>
+      <li>اضغط 1234</li>
+     </ol>
+    </div>
+   </details>
+
+   <details>
+    <summary>STAR TRACK ST-2016 HD</summary>
+    <div class="steps">
+     <ol>
+      <li>اضغط زر BISS من الريموت</li>
+      <li>اذا لم تظهر الصفحة اقف على القناة</li>
+      <li>اضغط 9878</li>
+      <li>اضغط زر BISS مرة اخرى</li>
+     </ol>
+    </div>
+   </details>
+
+   <details>
+    <summary>STARTREK SR-9990</summary>
+    <div class="steps">
+     <ol>
+      <li>اضغط Menu</li>
+      <li>اختر MULTI MEDIA</li>
+      <li>اكتب 1506</li>
+      <li>اختر PATCH</li>
+      <li>اختر قائمة Biss</li>
+     </ol>
+    </div>
+   </details>
+
+   <details>
+    <summary>SKY LINE HD 222</summary>
+    <div class="steps">
+     <ol>
+      <li>اضغط Menu</li>
+      <li>اختر MULTI MEDIA</li>
+      <li>اكتب 1506</li>
+      <li>اختر PATCH</li>
+      <li>اختر قائمة Biss</li>
+     </ol>
+    </div>
+   </details>
+
+   <details>
+    <summary>SUPERMAX 4300 CA HD MINI</summary>
+    <div class="steps">
+     <ol>
+      <li>اضغط SLOW</li>
+      <li>اضغط 1111</li>
+      <li>اضغط Menu</li>
+      <li>اختر installation</li>
+      <li>اختر PATCH MENU</li>
+      <li>اختر قائمة Biss</li>
+     </ol>
+    </div>
+   </details>
+
+   <details>
+    <summary>SUPERMAX SM 3000 HD</summary>
+    <div class="steps">
+     <ol>
+      <li>اقف على القناة</li>
+      <li>اضغط الزر الاحمر</li>
+     </ol>
+    </div>
+   </details>
+
+   <details>
+    <summary>GOLD STAR GS-1111 HD</summary>
+    <div class="steps">
+     <ol>
+      <li>اضغط Menu</li>
+      <li>اضغط 8888</li>
+      <li>اختر قائمة Biss</li>
+     </ol>
+    </div>
+   </details>
+
+   <details>
+    <summary>STARGOLD SG-777 HD</summary>
+    <div class="steps">
+     <ol>
+      <li>اقف على القناة</li>
+      <li>اضغط الزر الذي تحت الزر الازرق</li>
+      <li>اختر قائمة Biss</li>
+     </ol>
+    </div>
+   </details>
+
+   <details>
+    <summary>Tiger AG333</summary>
+    <div class="steps">
+     <ol>
+      <li>اضغط Menu</li>
+      <li>اضغط 8888</li>
+     </ol>
+    </div>
+   </details>
+
+   <details>
+    <summary>تكنوسات 2000 HD</summary>
+    <div class="steps">
+     <ol>
+      <li>اضغط 8899</li>
+      <li>اضغط الزر تحت TEXT</li>
+      <li>اضغط 8899 ثم OK</li>
+      <li>اضغط الزر الذي تحت الزر الاصفر</li>
+     </ol>
+    </div>
+   </details>
+
+   <details>
+    <summary>STAR-X MINI-2 EXTRA HD</summary>
+    <div class="steps">
+     <ol>
+      <li>اقف على القناة</li>
+      <li>اضغط 0</li>
+     </ol>
+    </div>
+   </details>
+
+   <details>
+    <summary>STAR TRACK ST-6000 WIFI</summary>
+    <div class="steps">
+     <ol>
+      <li>اقف على القناة</li>
+      <li>اضغط الزر الاخضر</li>
+     </ol>
+    </div>
+   </details>
+
+   <details>
+    <summary>Avatar Mini 1000</summary>
+    <div class="steps">
+     <ol>
+      <li>اضغط 8899</li>
+      <li>اضغط OK</li>
+      <li>اضغط الزر الذي تحت الزر الاصفر</li>
+     </ol>
+    </div>
+   </details>
+
+   <details>
+    <summary>GLOBO HD405</summary>
+    <div class="steps">
+     <ol>
+      <li>اضغط Menu</li>
+      <li>اختر DISH SETUP</li>
+      <li>اختر PATCH MENU</li>
+      <li>اختر قائمة Biss</li>
+     </ol>
+    </div>
+   </details>
+
+   <details>
+    <summary>I TECH I-6 PLUS</summary>
+    <div class="steps">
+     <ol>
+      <li>اضغط Menu</li>
+      <li>اكتب 6666</li>
+      <li>اضغط TWIN SETTING</li>
+      <li>اضغط PATCH</li>
+      <li>اختر قائمة Biss</li>
+     </ol>
+    </div>
+   </details>
+
+   <details>
+    <summary>Star Air 1000 Mini HD</summary>
+    <div class="steps">
+     <ol>
+      <li>اقف على القناة</li>
+      <li>اضغط الزر الازرق</li>
+     </ol>
+    </div>
+   </details>
+
+   <details>
+    <summary>Tiger 1000 HD Mini X2</summary>
+    <div class="steps">
+     <ol>
+      <li>اضغط Menu</li>
+      <li>اختر MULTI MEDIA</li>
+      <li>اكتب 1506</li>
+      <li>اختر PATCH</li>
+      <li>اختر قائمة Biss</li>
+     </ol>
+    </div>
+   </details>
+
+   <details>
+    <summary>Tiger 1000 HD (كبير)</summary>
+    <div class="steps">
+     <ol>
+      <li>اضغط Menu</li>
+      <li>اختر MULTI MEDIA</li>
+      <li>اكتب 1506</li>
+      <li>اختر PATCH</li>
+      <li>اختر قائمة Biss</li>
+     </ol>
+    </div>
+   </details>
+
+   <details>
+    <summary>Comix999 HD / Camex999H / Oscar X5 Mini HD / Redbox 6000HD</summary>
+    <div class="steps">
+     <ol>
+      <li>اضغط Menu</li>
+      <li>اضغط 0300</li>
+      <li>اختر خيارات الشيرنج</li>
+      <li>اختر Patch</li>
+      <li>اختر قائمة Biss</li>
+     </ol>
+    </div>
+   </details>
+
+   <details>
+    <summary>Starsat SR-3070 HD</summary>
+    <div class="steps">
+     <ol>
+      <li>اضغط 8899</li>
+      <li>اضغط OK</li>
+      <li>اضغط الزر الذي تحت F2</li>
+     </ol>
+    </div>
+   </details>
+
+   <details>
+    <summary>Gfretek HD / Mini 6 / Dark</summary>
+    <div class="steps">
+     <ol>
+      <li>اضغط 8899</li>
+      <li>اضغط OK</li>
+      <li>اضغط الزر الذي تحت الزر الاصفر</li>
+     </ol>
+    </div>
+   </details>
+
+   <details>
+    <summary>STAR PORT T-8100 Plus 1 HD</summary>
+    <div class="steps">
+     <ol>
+      <li>اكتب 8899</li>
+      <li>اقف على القناة</li>
+      <li>اضغط الزر الذي تحت الزر الاصفر</li>
+     </ol>
+    </div>
+   </details>
+
+   <details>
+    <summary>Atlas HD 200s + Atlas 100 HD</summary>
+    <div class="steps">
+     <ol>
+      <li>Menu</li>
+      <li>Controle d'accès</li>
+      <li>Editeur de clés</li>
+      <li>ادخل الشفرة ثم حفظ</li>
+     </ol>
+    </div>
+   </details>
+
+   <details>
+    <summary>Cristor Atlas E</summary>
+    <div class="steps">
+     <ol>
+      <li>Menu → Control d'accès → Key Editor</li>
+     </ol>
+    </div>
+   </details>
+   <details>
+    <summary>Blue Star 111 Mini</summary>
+    <div class="steps">
+     <ol>
+      <li>اضغط INFO من الريموت</li>
+      <li>اضغط F3</li>
+     </ol>
+    </div>
+   </details>
+
+   <details>
+    <summary>IG720 / IG730 / IG740</summary>
+    <div class="steps">
+     <ol>
+      <li>اكتب الكود بحروف صغيرة</li>
+      <li>اقف على القناة المراد فتحها</li>
+      <li>اضغط INFO اربع مرات</li>
+      <li>اذا لم تظهر الشاشة اضغط Menu</li>
+      <li>اضغط 6666</li>
+     </ol>
+    </div>
+   </details>
+
+   <details>
+    <summary>Truman 270 Option HD</summary>
+    <div class="steps">
+     <ol>
+      <li>اقف على القناة المشفرة</li>
+      <li>اضغط 8282 من الريموت</li>
+      <li>ادخل التردد</li>
+      <li>ادخل الكود</li>
+      <li>اضغط OK</li>
+     </ol>
+    </div>
+   </details>
+
+   <details>
+    <summary>Open Sat 333</summary>
+    <div class="steps">
+     <ol>
+      <li>اضغط Menu</li>
+      <li>اختر Setting</li>
+      <li>اختر Plugin Manage</li>
+      <li>اختر Type Patch</li>
+      <li>غير Status الى On</li>
+      <li>اقف على القناة المشفرة</li>
+      <li>اضغط 8282</li>
+      <li>اضف او عدل الكود</li>
+      <li>اضغط 8899 لتفعيل الباتش</li>
+     </ol>
+    </div>
+   </details>
+
+   <details>
+    <summary>Sonic 999 / Banasat Sun Plus</summary>
+    <div class="steps">
+     <ol>
+      <li>اضغط Menu</li>
+      <li>اختر اعدادات</li>
+      <li>اختر Biss</li>
+      <li>ادخل الكود</li>
+     </ol>
+    </div>
+   </details>
+
+   <details>
+    <summary>Starsat 2000 Hyper / Daly Star Gold 1111 Plus H4 / Tiger T800 / Starsat 8800 / Hershman 8800 / Ali3511–Ali3510–Ali3606–Ali3601</summary>
+    <div class="steps">
+     <ol>
+      <li>اضغط F1 + 000 لتفعيل الباتش</li>
+      <li>اقف على القناة المراد فتحها</li>
+      <li>اضغط F1 ثم 333</li>
+      <li>ادخل الكود</li>
+     </ol>
+    </div>
+   </details>
+
+   <details>
+    <summary>Drake / HED</summary>
+    <div class="steps">
+     <ol>
+      <li>اضغط Menu</li>
+      <li>اضغط 8888 او 6666</li>
+      <li>اختر Biss</li>
+      <li>ادخل الكود</li>
+      <li>في بعض الاجهزة حدث السوفت من drakeplus.com</li>
+      <li>اذهب الى Menu ثم Settings ثم Encryption Options</li>
+      <li>فعل EMU</li>
+      <li>ادخل الكود</li>
+     </ol>
+    </div>
+   </details>
+
+   <details>
+    <summary>Truman 9090</summary>
+    <div class="steps">
+     <ol>
+      <li>اقف على القناة</li>
+      <li>اضغط زر i مرتين بسرعة</li>
+      <li>اضغط الزر الاحمر</li>
+      <li>اضغط الزر الاحمر مرة اخرى</li>
+      <li>حرك الصوت حتى تصل الى Key Data</li>
+      <li>ادخل كود Biss</li>
+     </ol>
+    </div>
+   </details>
+   <details>
+    <summary>أجهزة فوكس سات</summary>
+    <div class="steps">
+     <ol>
+      <li>اقف على اي قناة</li>
+      <li>اضغط 8899</li>
+      <li>اضغط Menu</li>
+      <li>ادخل الى قائمة الاعدادات</li>
+      <li>اضغط Patch Menu</li>
+      <li>قم بالتعديل على الكود</li>
+     </ol>
+    </div>
+   </details>
+
+   <details>
+    <summary>أجهزة كيوماكس HD</summary>
+    <div class="steps">
+     <ol>
+      <li>الطريقة تعمل مع الانواع H1G3 / H4 PLUS / H3PLUS / H5 @6 / H2MINI 4+ الجوكر القديم 1 و 2 / H2MINI / V2 / V2.2 / VHD2 / V3</li>
+      <li>وتعمل ايضا مع H4 العادي ولكن يجب الضغط F1 + 333 او PAGE+</li>
+      <li>اضغط PAGE+ وانت واقف على القناة المشفرة</li>
+      <li>سيظهر مربع الشفرات</li>
+      <li>ادخل الكود من زر التعديل باللون الموجود في الرسيفر</li>
+     </ol>
+    </div>
+   </details>
+
+   <details>
+    <summary>أجهزة البرفكس والكامكس ومعالج نوفاتك</summary>
+    <div class="steps">
+     <ol>
+      <li>اقف على قناة مشفرة</li>
+      <li>اضغط 8612</li>
+     </ol>
+    </div>
+   </details>
+
+   <details>
+    <summary>كيوماكس H2 كلاسيك الميني والكبير معالج صن بلص</summary>
+    <div class="steps">
+     <ol>
+      <li>اضغط Menu</li>
+      <li>ادخل الى قائمة الوسائط</li>
+      <li>اضغط OK</li>
+      <li>ادخل الرقم 1506</li>
+      <li>ستظهر كلمة Patch</li>
+      <li>ادخل الكود الذي تريده</li>
+      <li>الطريقة تعمل مع اغلب اجهزة المعالج صن بلص المشابهة مثل باور ستار</li>
+     </ol>
+    </div>
+   </details>
+
+   <details>
+    <summary>أجهزة رويال 100 و 200</summary>
+    <div class="steps">
+     <ol>
+      <li>اضغط 8899 وانت واقف على اي قناة</li>
+      <li>اقف على القناة المراد فتح شفرتها</li>
+      <li>اضغط الزر الذي تحت الزر الاصفر</li>
+      <li>سيظهر مربع الكود</li>
+      <li>ادخل الكود ثم اضغط OK</li>
+      <li>الطريقة تعمل مع رسيفر اي ماكس 808 و ام تك 808</li>
+      <li>او اضغط 8899 ثم من الاعدادات ستظهر قائمة Biss</li>
+      <li>ادخل الكود</li>
+     </ol>
+    </div>
+   </details>
+
+   <details>
+    <summary>أجهزة المعالج GX6605</summary>
+    <div class="steps">
+     <ol>
+      <li>تشمل ستار سات 6969 و سكاي لاين 555 و برفكس 7300 و 7400H و 7500 و اغلب اجهزة هذا المعالج</li>
+      <li>منها تضغط الزر الازرق وتدخل الكود مباشرة</li>
+      <li>ومنها تضغط الزر الاخضر</li>
+      <li>ومنها تضغط الزر F1 اذا كان موجود بالريموت</li>
+     </ol>
+    </div>
+   </details>
+
+   <details>
+    <summary>Condor 5000 CI/FTA/CIP + Condor 9090x + Strasat 120/130/150/200/250/300</summary>
+    <div class="steps">
+     <ol>
+      <li>Menu → STB → 1234</li>
+     </ol>
+    </div>
+   </details>
+   <details>
+    <summary>اجهزة Electronic House (Grohy 1000v2 Mini / Helyo Tech 1000 Mini / Rony 1000 Mini / Astra 9000 Slim Mini)</summary>
+    <div class="steps">
+     <ol>
+      <li>اضغط 9878 لتفعيل ادخال الكود</li>
+      <li>اضغط Menu</li>
+      <li>اختر Key Edit</li>
+      <li>اختر نظام Biss</li>
+      <li>اضغط الزر الاخضر لاضافة الكود</li>
+     </ol>
+    </div>
+   </details>
+
+   <details>
+    <summary>Star Gold SG 750</summary>
+    <div class="steps">
+     <ol>
+      <li>اقف على القناة المشفرة</li>
+      <li>اضغط الزر الاخضر من الريموت</li>
+      <li>ستظهر نافذة الكود على القناة بدون الخروج</li>
+      <li>ضع الكود في المستطيل بدون مفاتيح او تردد او اضافات</li>
+      <li>اضغط OK</li>
+     </ol>
+    </div>
+   </details>
+
+   <details>
+    <summary>Discovery 555 Omega</summary>
+    <div class="steps">
+     <ol>
+      <li>اضغط Menu</li>
+      <li>اضغط 8888</li>
+      <li>ستظهر صفحة الشفرات</li>
+      <li>اخرج منها</li>
+      <li>اضغط زر Go To من الريموت</li>
+      <li>ادخل الكود</li>
+     </ol>
+    </div>
+   </details>
+
+   <details>
+    <summary>Truman X3 Mini HD / X2 / X5</summary>
+    <div class="steps">
+     <ol>
+      <li>اضغط Menu</li>
+      <li>اضغط 8686</li>
+      <li>ستظهر كلمة Patch</li>
+      <li>ستظهر صفحة Biss</li>
+      <li>ادخل الكود</li>
+     </ol>
+    </div>
+   </details>
+
+   <details>
+    <summary>Royal 9000 Plus</summary>
+    <div class="steps">
+     <ol>
+      <li>اضغط Menu + 8888</li>
+      <li>او اضغط زر Info مرتين</li>
+      <li>ستظهر الاشارة</li>
+      <li>اضغط الزر الاخضر</li>
+      <li>ستظهر لوحة المفاتيح</li>
+      <li>اكتب الكود</li>
+     </ol>
+    </div>
+   </details>
+
+   <details>
+    <summary>Techsat X999 / Tiger 999AG</summary>
+    <div class="steps">
+     <ol>
+      <li>اضغط Menu</li>
+      <li>اذهب الى ضبط</li>
+      <li>اختر اخر سطر</li>
+      <li>اختر Xcam</li>
+      <li>اضغط OK</li>
+      <li>اختر بقعة</li>
+      <li>اضغط OK</li>
+      <li>ادخل الكود</li>
+     </ol>
+    </div>
+   </details>
+
+   <details>
+    <summary>Truman TM H1 Plus</summary>
+    <div class="steps">
+     <ol>
+      <li>اقف على القناة المشفرة</li>
+      <li>اضغط الزر الذي تحت الاصفر</li>
+      <li>ستظهر قائمة الكود</li>
+      <li>اكتب الكود</li>
+      <li>اضغط OK</li>
+     </ol>
+    </div>
+   </details>
+
+   <details>
+    <summary>Top Box Biss</summary>
+    <div class="steps">
+     <ol>
+      <li>اضغط Menu</li>
+      <li>اضغط 9999</li>
+      <li>ادخل تردد القناة</li>
+      <li>اضغط OK على القناة</li>
+      <li>اضغط Info لعرض Information</li>
+      <li>خذ Service الخاص بالقناة</li>
+      <li>ادخل Service</li>
+      <li>ادخل كود القناة</li>
+      <li>اختر القناة من Select Service</li>
+      <li>اضغط OK</li>
+      <li>اخرج وستعمل القناة</li>
+     </ol>
+    </div>
+   </details>
+
+   <details>
+    <summary>اجهزة Supermax</summary>
+    <div class="steps">
+     <ol>
+      <li>اضغط Menu</li>
+      <li>اذهب الى قائمة ضبط</li>
+      <li>اختر اخر اختيار</li>
+      <li>اعداد Xcam</li>
+      <li>اختر اول اختيار</li>
+      <li>بقعة</li>
+      <li>ادخل الكود</li>
+     </ol>
+    </div>
+   </details>
+
+   <details>
+    <summary>Truman TM 222 HD</summary>
+    <div class="steps">
+     <ol>
+      <li>اضغط الزر الازرق</li>
+      <li>اكتب الكود</li>
+      <li>اضغط الزر الازرق مرة اخرى للحفظ</li>
+     </ol>
+    </div>
+   </details>
+
+   <details>
+    <summary>Smart Sat</summary>
+    <div class="steps">
+     <ol>
+      <li>اضغط Menu</li>
+      <li>اضغط 8888</li>
+      <li>معالج نوفاتك اغلبه Menu + 8612 او 8612 وانت واقف على قناة مشفرة</li>
+      <li>معالج صن بلص اغلبه Menu + 8888 او Menu ثم قائمة الوسائط 1506</li>
+     </ol>
+    </div>
+   </details>
+
+   <details>
+    <summary>Hershman 1100</summary>
+    <div class="steps">
+     <ol>
+      <li>اضغط Menu</li>
+      <li>اختر Others</li>
+      <li>اختر BISS / Cam Setting</li>
+      <li>اختر Biss Key List</li>
+     </ol>
+    </div>
+   </details>
+
+   <details>
+    <summary>Avatar 1000</summary>
+    <div class="steps">
+     <ol>
+      <li>اضغط 5566 وانت واقف على القناة</li>
+      <li>ستظهر قائمة الكود</li>
+      <li>اكتب الكود</li>
+      <li>اضغط OK</li>
+     </ol>
+    </div>
+   </details>
+
+   <details>
+    <summary>Truman Premier 1 Plus</summary>
+    <div class="steps">
+     <ol>
+      <li>اضغط Menu</li>
+      <li>اضغط 9999</li>
+      <li>اكتب الكود</li>
+      <li>اضغط Exit</li>
+     </ol>
+    </div>
+   </details>
+
+   <details>
+    <summary>Astra 10300 Mini HD Gold</summary>
+    <div class="steps">
+     <ol>
+      <li>اضغط Page Up + 33</li>
+     </ol>
+    </div>
+   </details>
+
+   <details>
+    <summary>Camex 999</summary>
+    <div class="steps">
+     <ol>
+      <li>اضغط زر Biss الازرق في الريموت</li>
+      <li>ستظهر قائمة Biss</li>
+      <li>اغلب اجهزة صن بلص اضغط 8899 لتفعيل EMU</li>
+      <li>اضغط الزر الذي تحت اللون الاصفر</li>
+      <li>ادخل الكود</li>
+      <li>او اضغط Menu + 8888</li>
+     </ol>
+    </div>
+   </details>
+
+   <details>
+    <summary>Condor 9090 HD Plus</summary>
+    <div class="steps">
+     <ol>
+      <li>Menu → Avancé</li>
+      <li>اضغط 1234</li>
+      <li>جدول الشفرات → اختر التشفير → ادخل الشفرة</li>
+     </ol>
+    </div>
+   </details>
+   <details>
+    <summary>معالج GX6605</summary>
+    <div class="steps">
+     <ol>
+      <li>اضغط Menu + 6666</li>
+      <li>ستظهر كلمة Patch</li>
+      <li>انزل على كلمة Key</li>
+      <li>ادخل الكود</li>
+     </ol>
+    </div>
+   </details>
+
+   <details>
+    <summary>Dolphin Mini HD</summary>
+    <div class="steps">
+     <ol>
+      <li>اضغط Menu + 8888</li>
+     </ol>
+    </div>
+   </details>
+
+   <details>
+    <summary>New Max 744</summary>
+    <div class="steps">
+     <ol>
+      <li>اضغط Menu</li>
+      <li>اضغط 8888</li>
+      <li>اختر قائمة Biss</li>
+     </ol>
+    </div>
+   </details>
+
+   <details>
+    <summary>Star Net HD | ستار نت HD</summary>
+    <div class="steps">
+     <ol>
+      <li>اضغط Menu</li>
+      <li>اختر Setting</li>
+      <li>اختر Xcam Setup</li>
+      <li>اختر Patch</li>
+     </ol>
+    </div>
+   </details>
+
+   <details>
+    <summary>Target T 907</summary>
+    <div class="steps">
+     <ol>
+      <li>اضغط Menu</li>
+      <li>اختر Setting</li>
+      <li>اختر Xcam Setup</li>
+      <li>اختر Patch</li>
+     </ol>
+    </div>
+   </details>
+
+   <details>
+    <summary>Starsat 6969 HD</summary>
+    <div class="steps">
+     <ol>
+      <li>اقف على قناة مشفرة</li>
+      <li>اضغط Info + 1</li>
+     </ol>
+    </div>
+   </details>
+
+   <details>
+    <summary>JAGUAR-AG 9000 HD</summary>
+    <div class="steps">
+     <ol>
+      <li>اضغط Menu</li>
+      <li>اضغط 8888</li>
+     </ol>
+    </div>
+   </details>
+   <details>
+    <summary>Starsat 550 / 650</summary>
+    <div class="steps">
+     <ol>
+      <li>اضغط Menu من الريموت</li>
+      <li>اختر Installation</li>
+      <li>اختر Input Code</li>
+      <li>ستظهر لوحة المفاتيح لإدخال الارقام الكودية الجديدة</li>
+      <li>بعد الانتهاء اضغط زر Enter للتثبيت</li>
+     </ol>
+    </div>
+   </details>
+
+   <details>
+    <summary>Astra / MTK / Camex 777 Family</summary>
+    <div class="steps">
+     <ol>
+      <li>اضغط Menu</li>
+      <li>قف على STP ضبط</li>
+      <li>ادخل 1234</li>
+      <li>ستظهر جميع انواع التشفير</li>
+      <li>اختر نوع التشفير المراد تغيير الكودات منه واضغط OK</li>
+     </ol>
+    </div>
+   </details>
+
+   <details>
+    <summary>Topfield (All Models)</summary>
+    <div class="steps">
+     <ol>
+      <li>اضغط Menu</li>
+      <li>اختر شاشة النظام</li>
+      <li>ادخل الرقم 121</li>
+      <li>ستظهر جميع انواع الشفرات</li>
+     </ol>
+    </div>
+   </details>
+   <details>
+    <summary>Mutek 8800</summary>
+    <div class="steps">
+     <ol>
+      <li>MENU</li>
+      <li>ادخل 7139</li>
+      <li>اختر النظام: احمر Viaccess / اصفر Irdeto / اخضر Seca / ازرق Nagra</li>
+      <li>اضغط OK</li>
+      <li>ادخل الكود</li>
+      <li>OK للحفظ</li>
+     </ol>
+    </div>
+   </details>
+   <details>
+    <summary>Truman 7000</summary>
+    <div class="steps">
+     <ol>
+      <li>MENU</li>
+      <li>Common Interface</li>
+      <li>Non Inserted Card</li>
+      <li>Keyboard</li>
+      <li>اختر النظام بالألوان</li>
+      <li>اضغط الاخضر لتعديل المفاتيح</li>
+      <li>OK للحفظ</li>
+     </ol>
+    </div>
+   </details>
+   <details>
+    <summary>B-SAT 5400 Gold – بى سات 5400 الذهبى</summary>
+    <div class="steps">
+     <ol>
+      <li>اضغط MENU</li>
+      <li>اختر Common Interface ثم OK</li>
+      <li>اختر None Inserted Card ثم OK</li>
+      <li>اختر Keyboard ثم OK</li>
+      <li>اختر النظام: اصفر Viaccess / ازرق Seca / احمر Irdeto / ابيض Nagra</li>
+      <li>اضغط الاخضر لادخال او تعديل المفتاح</li>
+      <li>اضغط OK للحفظ</li>
+     </ol>
+    </div>
+   </details>
+
+   <details>
+    <summary>Mutek 8800 – ميوتك 8800</summary>
+    <div class="steps">
+     <ol>
+      <li>اضغط MENU</li>
+      <li>ادخل الرقم 7139</li>
+      <li>اختر النظام: احمر Viaccess / اصفر Irdeto / اخضر Seca / ازرق Nagra</li>
+      <li>اضغط OK</li>
+      <li>ادخل المفتاح</li>
+      <li>اضغط OK للحفظ</li>
+     </ol>
+    </div>
+   </details>
+
+   <details>
+    <summary>Truman 2000 – ترومان 2000</summary>
+    <div class="steps">
+     <ol>
+      <li>اضغط MENU</li>
+      <li>اختر Preference</li>
+      <li>اختر Language Setting</li>
+      <li>ادخل 9999</li>
+      <li>اختر نظام التشفير</li>
+      <li>ادخل المفتاح الجديد</li>
+     </ol>
+    </div>
+   </details>
+
+   <details>
+    <summary>Fortec Star Lifetime – فورتك ستار لايف تايم</summary>
+    <div class="steps">
+     <ol>
+      <li>ادخل Channel Edit</li>
+      <li>اختر Edit Code ثم OK</li>
+      <li>ادخل الرقم السري 1010</li>
+      <li>اختر نظام التشفير المطلوب</li>
+      <li>اختر Provider الخاص بالباقة</li>
+      <li>ادخل المفتاح باستخدام الريموت (SAT=A, INFO=B, RADIO=C, PAUSE=D, AUDIO=E, GUIDE=F)</li>
+      <li>اضغط OK للحفظ</li>
+     </ol>
+    </div>
+   </details>
+
+   <details>
+    <summary>StarPort T9500 – ستاربورت T9500</summary>
+    <div class="steps">
+     <ol>
+      <li>اضغط MENU</li>
+      <li>اختر Setting Language ثم OK</li>
+      <li>ادخل الرقم 9999 ثم OK</li>
+      <li>اختر نظام التشفير</li>
+      <li>قم بتعديل الكود</li>
+      <li>اضغط MENU ثم EXIT للحفظ</li>
+     </ol>
+    </div>
+   </details>
+
+   <details>
+    <summary>ECC 555 – ايه سى سى 555</summary>
+    <div class="steps">
+     <ol>
+      <li>لإظهار صفحة الاكواد اضغط 6382</li>
+      <li>لفتح القنوات المشفرة اضغط MENU ثم 6381</li>
+     </ol>
+    </div>
+   </details>
+   <details>
+    <summary>Signal 444 – سجنال 444</summary>
+    <div class="steps">
+     <ol>
+      <li>اضغط MENU</li>
+      <li>اختر GAME</li>
+      <li>اختر EDIT KEY</li>
+     </ol>
+    </div>
+   </details>
+
+   <details>
+    <summary>Smart M1 – سمارت M1</summary>
+    <div class="steps">
+     <ol>
+      <li>اضغط MENU</li>
+      <li>اختر Installation</li>
+      <li>اختر Parental Control ثم OK</li>
+      <li>اضغط Info ثم Guide</li>
+      <li>ادخل الرقم 5400 ثم MENU</li>
+      <li>ادخل Edit Code</li>
+      <li>اختر نظام التشفير (V,S,N,K)</li>
+      <li>اختر Provider ثم Index ثم ادخل الكود</li>
+      <li>اضغط OK للحفظ</li>
+     </ol>
+    </div>
+   </details>
+
+   <details>
+    <summary>Citizen & Star Vision – سيتيزن وستار فيجن</summary>
+    <div class="steps">
+     <ol>
+      <li>اضغط MENU</li>
+      <li>اختر System Setting</li>
+      <li>اضغط Info</li>
+      <li>ادخل الرقم 9876</li>
+      <li>اختر نظام التشفير</li>
+     </ol>
+    </div>
+   </details>
+
+   <details>
+    <summary>Citizen CI-5100 – سيتيزن CI5100</summary>
+    <div class="steps">
+     <ol>
+      <li>اضغط MENU</li>
+      <li>اختر Installation</li>
+      <li>اختر Edit Code ثم OK</li>
+      <li>اختر نظام التشفير (V, S, N, K)</li>
+     </ol>
+    </div>
+   </details>
+
+   <details>
+    <summary>SanyoSat Ultra – سانيوسات الترا</summary>
+    <div class="steps">
+     <ol>
+      <li>اضغط MENU</li>
+      <li>اختر Edit Code</li>
+      <li>اختر النظام: احمر Viaccess / اخضر Irdeto / اصفر Nagra / ازرق Seca</li>
+     </ol>
+    </div>
+   </details>
+
+   <details>
+    <summary>Smart M5 – سمارت M5</summary>
+    <div class="steps">
+     <ol>
+      <li>اضغط MENU</li>
+      <li>اختر Conditional Access</li>
+      <li>اختر Edit Code ثم OK</li>
+      <li>اختر نظام التشفير</li>
+     </ol>
+    </div>
+   </details>
+
+   <details>
+    <summary>SamSat – سام سات</summary>
+    <div class="steps">
+     <ol>
+      <li>اضغط MENU</li>
+      <li>اختر Installation</li>
+      <li>ادخل الرقم 0937</li>
+      <li>اختر Code ثم OK</li>
+      <li>اختر نظام التشفير</li>
+     </ol>
+    </div>
+   </details>
+
+   <details>
+    <summary>Smart D4 – سمارت D4</summary>
+    <div class="steps">
+     <ol>
+      <li>اضغط MENU</li>
+      <li>اختر Installation</li>
+      <li>اختر Edit Code</li>
+      <li>اختر نظام التشفير (V,S,N,K)</li>
+      <li>اختر Provider ثم Index ثم ادخل الكود</li>
+      <li>اضغط OK للحفظ</li>
+     </ol>
+    </div>
+   </details>
+
+   <details>
+    <summary>Condor – كوندور</summary>
+    <div class="steps">
+     <ol>
+      <li>اضغط MENU</li>
+      <li>اذهب إلى STB Options</li>
+      <li>ادخل الرقم 1234</li>
+     </ol>
+    </div>
+   </details>
+   <details>
+    <summary>Chinese Ali CPU – ريسيفر صيني معالج ألي</summary>
+    <div class="steps">
+     <ol>
+      <li>قف على القناة المشفرة</li>
+      <li>اضغط INFO</li>
+      <li>اضغط 1234</li>
+      <li>سيظهر شريط الشفرة</li>
+      <li>اكتب الشفرة واضغط OK</li>
+     </ol>
+    </div>
+   </details>
+
+   <details>
+    <summary>Astra 9400 – استرا 9400</summary>
+    <div class="steps">
+     <ol>
+      <li>قف على ضبط الجهاز</li>
+      <li>اضغط 1234</li>
+      <li>ادخل شفرة BISS</li>
+     </ol>
+    </div>
+   </details>
+
+   <details>
+    <summary>Golden Interstar – جولدن انترستار</summary>
+    <div class="steps">
+     <ol>
+      <li>اضغط MENU</li>
+      <li>اضغط الزر الأحمر</li>
+      <li>تدخل على صفحة الاكواد</li>
+     </ol>
+    </div>
+   </details>
+
+   <details>
+    <summary>Univers 4113 – يونيفرس 4113</summary>
+    <div class="steps">
+     <ol>
+      <li>اضغط MENU</li>
+      <li>اضغط 2020 حتى تظهر CAS ENABLED</li>
+      <li>اذهب إلى Outils</li>
+      <li>ادخل Key Editor</li>
+      <li>اختر النظام والـ CAID</li>
+      <li>اختر Key 00</li>
+      <li>ادخل شفرة BISS ثم OK</li>
+     </ol>
+    </div>
+   </details>
+
+   <details>
+    <summary>Starsat 5300 Super – ستار سات 5300 سوبر</summary>
+    <div class="steps">
+     <ol>
+      <li>اضغط MENU</li>
+      <li>اذهب إلى Outils</li>
+      <li>ادخل Key Editor</li>
+     </ol>
+    </div>
+   </details>
+   <details>
+    <summary>جولدن انترستار – Golden Interstar</summary>
+    <ol>
+     <li>MENU + Red Button (الزر الأحمر)</li>
+     <li>Patch activation via 7931 ثم OK</li>
+     <li>فتح صفحة الأكواد بالزر الأزرق</li>
+    </ol>
+   </details>
+   <details>
+    <summary>ايبوكس S2 – IBOX S2</summary>
+    <ol>
+     <li>اكتب 7931 ثم OK لتفعيل الباتش</li>
+     <li>MENU ثم الزر الأزرق لفتح صفحة الأكواد</li>
+    </ol>
+   </details>
+   <details>
+    <summary>ايبوكس ميني HD – IBOX S Mini HD</summary>
+    <ol>
+     <li>اكتب 7931 ثم OK لتفعيل الباتش</li>
+     <li>اضغط 8282 لفتح صفحة الأكواد</li>
+    </ol>
+   </details>
+   <details>
+    <summary>ايبوكس إليجانت – IBOX Elegant</summary>
+    <ol>
+     <li>قف على قناة مشفرة واضغط F2</li>
+     <li>نزل آخر تحديث</li>
+     <li>فعّل الباتش من علامة الإنترنت</li>
+     <li>ادخل الأكواد من: Settings → Code Settings</li>
+    </ol>
+   </details>
+   <details>
+    <summary>سترونج – Strong Receivers</summary>
+    <ol>
+     <li>قف على قناة مشفرة</li>
+     <li>اضغط 8282 أو 7799 أو 9696</li>
+     <li>تظهر قائمة أنظمة التشفير</li>
+    </ol>
+   </details>
+   <details>
+    <summary>ستريم – Stream Receivers</summary>
+    <ol>
+     <li>اضغط الأصفر</li>
+     <li>ثم الأزرق</li>
+     <li>ثم الأخضر</li>
+     <li>ثم MENU لفتح جدول الشفرات</li>
+    </ol>
+   </details>
+   <details>
+    <summary>Power Sky / Arion / Houston / Austar</summary>
+    <ol>
+     <li>MENU</li>
+     <li>Tools</li>
+     <li>Game</li>
+     <li>اكتب 19370 ثم 2486</li>
+     <li>ادخل Edit Key</li>
+    </ol>
+   </details>
+   <details>
+    <summary>استرا 9400 – Astra 9400</summary>
+    <ol>
+     <li>MENU</li>
+     <li>قف على ضبط الجهاز</li>
+     <li>اكتب 1234</li>
+    </ol>
+   </details>
+
+   <details>
+    <summary>Strong BISS Mode – سترونج BISS</summary>
+    <div class="steps">
+     <ol>
+      <li>قف على القناة</li>
+      <li>اضغط 8282 لعرض الأكواد</li>
+      <li>لإظهار BISS اضغط 8280</li>
+     </ol>
+    </div>
+   </details>
+
+   <details>
+    <summary>Stream Series – أجهزة ستريم</summary>
+    <div class="steps">
+     <ol>
+      <li>اضغط الأصفر</li>
+      <li>ثم الأزرق</li>
+      <li>ثم الأخضر</li>
+      <li>ثم MENU</li>
+      <li>تظهر صفحة الشفرات</li>
+     </ol>
+    </div>
+   </details>
+
+   <details>
+    <summary>Golden Vision SmartBox 3</summary>
+    <div class="steps">
+     <ol>
+      <li>اضغط MENU</li>
+      <li>اذهب إلى System Settings</li>
+      <li>TV System</li>
+      <li>ادخل 0000</li>
+      <li>اضغط الزر الأحمر</li>
+     </ol>
+    </div>
+   </details>
+
+   <details>
+    <summary>Geant 2500 HD New</summary>
+    <div class="steps">
+     <ol>
+      <li>اضغط F1 + 444</li>
+      <li>أو MENU ثم Installation ثم Code List</li>
+      <li>أضف شفرة BISS</li>
+     </ol>
+    </div>
+   </details>
+
+   <details>
+    <summary>Echolink Open Vu2 / Vu3</summary>
+    <div class="steps">
+     <ol>
+      <li>قف على قناة مشفرة</li>
+      <li>اضغط F1 + 0000</li>
+     </ol>
+    </div>
+   </details>
+   <details>
+    <summary>Discovery</summary>
+    <div class="steps">
+     <ol>
+      <li>اضغط الزر الازرق ثلاث مرات</li>
+      <li>ستظهر لوحة المفاتيح والرموز</li>
+      <li>ادخل المفاتيح الجديدة</li>
+     </ol>
+    </div>
+   </details>
+
+   <details>
+    <summary>Star Port 9550</summary>
+    <div class="steps">
+     <ol>
+      <li>اضغط Menu</li>
+      <li>اختر وضع النظام</li>
+      <li>اختر اللغة</li>
+      <li>ادخل الرقم 9999</li>
+      <li>ستظهر لوحة المفاتيح</li>
+     </ol>
+    </div>
+   </details>
+
+   <details>
+    <summary>Mvision</summary>
+    <div class="steps">
+     <ol>
+      <li>اضغط Menu</li>
+      <li>اضغط 9999</li>
+      <li>ستظهر لوحة المفاتيح والرموز</li>
+     </ol>
+    </div>
+   </details>
+
+   <details>
+    <summary>Techno Sat</summary>
+    <div class="steps">
+     <ol>
+      <li>قف على قناة مشفرة</li>
+      <li>ادخل الرقم 9911</li>
+      <li>ستظهر لوحة المفاتيح والرموز</li>
+     </ol>
+    </div>
+   </details>
+
+   <details>
+    <summary>Tech View</summary>
+    <div class="steps">
+     <ol>
+      <li>اضغط الزر الاحمر 4 مرات</li>
+      <li>ستظهر لوحة المفاتيح والرموز</li>
+     </ol>
+    </div>
+   </details>
+
+   <details>
+    <summary>Truman</summary>
+    <div class="steps">
+     <ol>
+      <li>اضغط Menu</li>
+      <li>اختر اللغة</li>
+      <li>قف عليها واضغط OK</li>
+      <li>ادخل الرقم 9999</li>
+      <li>ستظهر لوحة المفاتيح والرموز</li>
+     </ol>
+    </div>
+   </details>
+
+   <details>
+    <summary>Lawrence</summary>
+    <div class="steps">
+     <ol>
+      <li>اضغط Menu</li>
+      <li>اذهب الى معلومات الجهاز</li>
+      <li>ادخل الرقم 2121</li>
+      <li>اختر Edit Key</li>
+      <li>ادخل الرقم 9244</li>
+      <li>ستظهر لوحة المفاتيح والرموز</li>
+     </ol>
+    </div>
+   </details>
+
+   <details>
+    <summary>Citizen / Star Vision 5100 - 5200 - 5300 - 5400</summary>
+    <div class="steps">
+     <ol>
+      <li>اضغط Menu</li>
+      <li>اختر وضع النظام</li>
+      <li>اضغط Info</li>
+      <li>سيظهر حرف H على الشاشة</li>
+      <li>ادخل الرقم 9876</li>
+      <li>ستظهر لوحة المفاتيح والرموز</li>
+     </ol>
+    </div>
+   </details>
+
+   <details>
+    <summary>Fortec Star 9800</summary>
+    <div class="steps">
+     <ol>
+      <li>اضغط Menu</li>
+      <li>قف على مدخل الكامه</li>
+      <li>ادخل الرقم 9244</li>
+      <li>اضغط OK</li>
+      <li>ستظهر لوحة المفاتيح والرموز</li>
+     </ol>
+    </div>
+   </details>
+
+   <details>
+    <summary>Signal 444</summary>
+    <div class="steps">
+     <ol>
+      <li>اضغط Menu</li>
+      <li>اختر Games</li>
+      <li>اختر Edit Key</li>
+      <li>ستظهر لوحة المفاتيح والرموز</li>
+     </ol>
+    </div>
+   </details>
+
+   <details>
+    <summary>Sky 2</summary>
+    <div class="steps">
+     <ol>
+      <li>اضغط Menu</li>
+      <li>ادخل الرقم 19370</li>
+      <li>ادخل الرقم السري 2486</li>
+      <li>اختر Tools</li>
+      <li>اختر Game</li>
+      <li>اضغط OK</li>
+      <li>اذا طلب الرقم السري ادخل 0786</li>
+      <li>ستظهر لوحة المفاتيح والرموز</li>
+     </ol>
+    </div>
+   </details>
+
+   <details>
+    <summary>Qmax (7 Buttons)</summary>
+    <div class="steps">
+     <ol>
+      <li>اضغط EXIT</li>
+      <li>ستظهر لوحة المفاتيح والرموز</li>
+     </ol>
+    </div>
+   </details>
+
+   <details>
+    <summary>Strong</summary>
+    <div class="steps">
+     <ol>
+      <li>ادخل الرقم 8282</li>
+      <li>ستظهر لوحة المفاتيح والرموز</li>
+     </ol>
+    </div>
+   </details>
+
+   <details>
+    <summary>Orion / Daewoo</summary>
+    <div class="steps">
+     <ol>
+      <li>اضغط Menu</li>
+      <li>اختر اخر سطر Game</li>
+      <li>اضغط OK</li>
+      <li>اختر Edit Key</li>
+      <li>ادخل كلمة المرور</li>
+      <li>ستظهر لوحة المفاتيح والرموز</li>
+     </ol>
+    </div>
+   </details>
+
+   <details>
+    <summary>Smart (MI / DI Models)</summary>
+    <div class="steps">
+     <ol>
+      <li>اضغط Menu</li>
+      <li>اختر السطر الخامس</li>
+      <li>اختر التحكم المركزي</li>
+      <li>اضغط Info ثم Guide</li>
+      <li>ادخل الرقم 5400</li>
+      <li>اضغط Menu</li>
+      <li>اختر السطر الخامس مرة اخرى</li>
+      <li>سيظهر السطر الثامن Edit Code</li>
+     </ol>
+    </div>
+   </details>
+   <details>
+    <summary>MetaBox (الاسود والفضي)</summary>
+    <div class="steps">
+     <ol>
+      <li>يجب اولا تحميل البرنامج للجهاز</li>
+      <li>اضغط Menu</li>
+      <li>ستظهر ايقونة مفاتيح على اليسار</li>
+      <li>ادخل الرقم السري للجهاز</li>
+      <li>ستظهر شاشة تغيير الشفرات</li>
+      <li>اختر نوع التشفير</li>
+      <li>الاصفر لنظام Viaccess</li>
+      <li>الازرق لنظام Seca</li>
+      <li>الابيض لنظام Nagravision</li>
+      <li>الاحمر لنظام Irdeto</li>
+     </ol>
+    </div>
+   </details>
+
+   <details>
+    <summary>KAON</summary>
+    <div class="steps">
+     <ol>
+      <li>اضغط الاصفر</li>
+      <li>اضغط الاخضر</li>
+      <li>اضغط الازرق</li>
+      <li>اضغط Menu</li>
+      <li>ستظهر لوحة المفاتيح والرموز</li>
+     </ol>
+    </div>
+   </details>
+
+   <details>
+    <summary>BIOSAT 2006</summary>
+    <div class="steps">
+     <ol>
+      <li>اذهب الى الالعاب</li>
+      <li>ادخل الرقم 2256</li>
+     </ol>
+    </div>
+   </details>
+
+   <details>
+    <summary>Smart Plus</summary>
+    <div class="steps">
+     <ol>
+      <li>اضغط Menu</li>
+      <li>قف على رقابة الوالدين</li>
+      <li>ادخل الرقم 2468</li>
+      <li>سيتم فتح بند الشيفرات وفك القفل</li>
+     </ol>
+    </div>
+   </details>
+
+   <details>
+    <summary>Topfield 3000FI / 3030</summary>
+    <div class="steps">
+     <ol>
+      <li>اضغط Menu</li>
+      <li>قف على System Setting</li>
+      <li>قبل الضغط على OK اضغط 121</li>
+      <li>ستظهر Edit Code</li>
+     </ol>
+    </div>
+   </details>
+
+   <details>
+    <summary>Bodyguard Techno 555</summary>
+    <div class="steps">
+     <ol>
+      <li>بعد تحميل البرنامج</li>
+      <li>اضغط Menu</li>
+      <li>اضغط Channel OK</li>
+      <li>اضغط الالوان بالترتيب</li>
+      <li>تحويل القائمة الى Always Off</li>
+     </ol>
+    </div>
+   </details>
+
+   <details>
+    <summary>Bodyguard القديم</summary>
+    <div class="steps">
+     <ol>
+      <li>استخدم باتش 555 السابق</li>
+      <li>اضغط Menu</li>
+     </ol>
+    </div>
+   </details>
+
+   <details>
+    <summary>Opentel / Samsat / Echosat</summary>
+    <div class="steps">
+     <ol>
+      <li>اضغط Menu</li>
+      <li>اذهب الى Installation</li>
+      <li>اضغط OK</li>
+      <li>اذهب الى Parental Control</li>
+      <li>اضغط OK</li>
+      <li>اذهب الى Menu Lock واجعله On</li>
+      <li>اخرج من جميع القوائم</li>
+      <li>اضغط Menu</li>
+      <li>اذهب الى Installation</li>
+      <li>اضغط OK</li>
+      <li>سيطلب Enter PIN Code</li>
+      <li>ادخل الرقم 0937</li>
+      <li>سيظهر اخر سطر Code</li>
+      <li>ادخل وغير الشيفرة</li>
+     </ol>
+    </div>
+   </details>
+
+   <details>
+    <summary>Star 150 / 120 / 200</summary>
+    <div class="steps">
+     <ol>
+      <li>اضغط Menu</li>
+      <li>قف على STB Setting بدون الضغط على OK</li>
+      <li>ادخل الرقم 1234</li>
+      <li>ستظهر شاشة انواع التشفير الاربعة</li>
+      <li>اختر نوع التشفير</li>
+      <li>ادخل الى المفاتيح</li>
+      <li>غير المفتاح بناء على Ident</li>
+     </ol>
+    </div>
+   </details>
+
+   <details>
+    <summary>Techno 6000 Plus</summary>
+    <div class="steps">
+     <ol>
+      <li>قف على قناة مشفرة</li>
+      <li>ادخل الرقم 9911</li>
+      <li>ستظهر قائمة المفاتيح</li>
+     </ol>
+    </div>
+   </details>
+
+   <details>
+    <summary>Tech View</summary>
+    <div class="steps">
+     <ol>
+      <li>اضغط الزر الاحمر 4 مرات</li>
+      <li>ستظهر قائمة المفاتيح</li>
+     </ol>
+    </div>
+   </details>
+
+   <details>
+    <summary>MetaBox (Advanced)</summary>
+    <div class="steps">
+     <ol>
+      <li>اضغط Menu</li>
+      <li>اختر Code Edit</li>
+      <li>ادخل الرقم السري (الافتراضي 0000)</li>
+      <li>اختر نظام التشفير بالالوان</li>
+      <li>ادخل Provider</li>
+      <li>ادخل Index</li>
+      <li>اضغط OK</li>
+      <li>اختر Yes للحفظ</li>
+      <li>اعد تشغيل الجهاز</li>
+     </ol>
+    </div>
+   </details>
+
+   <details>
+    <summary>Starsat 3100 / 3500 / 650 / 550 Super & Plus</summary>
+    <div class="steps">
+     <ol>
+      <li>قف على القناة المشفرة</li>
+      <li>اضغط Pause</li>
+      <li>سيظهر صندوق الحروف والارقام</li>
+      <li>ادخل رقم ID الباقة</li>
+      <li>ادخل كود Biss بعده مباشرة بدون مسافات</li>
+      <li>اضغط Enter</li>
+     </ol>
+    </div>
+   </details>
+
+   <details>
+    <summary>Truman (Keys)</summary>
+    <div class="steps">
+     <ol>
+      <li>ادخل القائمة الرئيسية</li>
+      <li>اختر اللغة</li>
+      <li>اضغط الزر الاحمر</li>
+      <li>اضغط 9999</li>
+      <li>ستظهر قائمة المفاتيح</li>
+     </ol>
+    </div>
+   </details>
+   <details>
+    <summary>Star Track 9339</summary>
+    <div class="steps">
+     <ol>
+      <li>الجهاز يدعم ادخال الكود من قائمة المفاتيح</li>
+     </ol>
+    </div>
+   </details>
+
+   <details>
+    <summary>Lawrence 6000</summary>
+    <div class="steps">
+     <ol>
+      <li>ادخل الرقم 1212</li>
+      <li>ادخل الرقم 9244 لادخال الكودات</li>
+     </ol>
+    </div>
+   </details>
+
+   <details>
+    <summary>Top (Model 1)</summary>
+    <div class="steps">
+     <ol>
+      <li>ادخل الرقم 2828</li>
+      <li>ادخل الرقم 6969</li>
+     </ol>
+    </div>
+   </details>
+
+   <details>
+    <summary>Top (Model 2)</summary>
+    <div class="steps">
+     <ol>
+      <li>ادخل الرقم 7755</li>
+      <li>ادخل الرقم 2699755</li>
+     </ol>
+    </div>
+   </details>
+
+   <details>
+    <summary>VMA</summary>
+    <div class="steps">
+     <ol>
+      <li>ادخل الرقم 2486</li>
+      <li>ادخل الرقم 19370</li>
+     </ol>
+    </div>
+   </details>
+
+   <details>
+    <summary>Techno 555</summary>
+    <div class="steps">
+     <ol>
+      <li>اضغط Menu</li>
+      <li>ادخل الرقم 2580</li>
+      <li>لتفعيل الباتش الثاني اضغط الاحمر ثم الاخضر ثم الاصفر ثم الازرق</li>
+      <li>حول Pay Channel Lock Status الى Always Off</li>
+      <li>اضغط Exit</li>
+      <li>عند تغيير الكودات اضغط زر ؟</li>
+     </ol>
+    </div>
+   </details>
+
+   <details>
+    <summary>Lawrence (Advanced)</summary>
+    <div class="steps">
+     <ol>
+      <li>اضغط Menu</li>
+      <li>اختر Config</li>
+      <li>اختر System Information</li>
+      <li>ادخل الرقم 1697 مرتين</li>
+      <li>لاضافة كود اختر Set Information</li>
+      <li>ادخل الرقم 9856</li>
+     </ol>
+    </div>
+   </details>
+
+   <details>
+    <summary>Condor 4000 FTA</summary>
+    <div class="steps">
+     <ol>
+      <li>اضغط Menu</li>
+      <li>ادخل الرقم 2020</li>
+     </ol>
+    </div>
+   </details>
+
+   <details>
+    <summary>Topfield (Keys)</summary>
+    <div class="steps">
+     <ol>
+      <li>ادخل القائمة الرئيسية</li>
+      <li>قف على شاشة النظام</li>
+      <li>اضغط 121</li>
+      <li>ستظهر قائمة المفاتيح</li>
+      <li>اختر نظام التشفير</li>
+      <li>ادخل الكود</li>
+     </ol>
+    </div>
+   </details>
+
+   <details>
+    <summary>Kaon (حديث)</summary>
+    <div class="steps">
+     <ol>
+      <li>اضغط الاصفر مرة واحدة</li>
+      <li>اضغط الازرق مرة واحدة</li>
+      <li>اضغط الاخضر مرة واحدة</li>
+      <li>اضغط Menu</li>
+      <li>ستظهر صفحة المفاتيح</li>
+     </ol>
+    </div>
+   </details>
+
+   <details>
+    <summary>Kaon (قديم)</summary>
+    <div class="steps">
+     <ol>
+      <li>اضغط الاصفر مرتين</li>
+      <li>اضغط الازرق مرتين</li>
+      <li>اضغط الاخضر مرتين</li>
+      <li>اضغط الاحمر مرتين</li>
+      <li>اضغط Menu</li>
+      <li>ستظهر قائمة المفاتيح</li>
+     </ol>
+    </div>
+   </details>
+
+   <details>
+    <summary>Astra Family</summary>
+    <div class="steps">
+     <ol>
+      <li>اضغط Menu</li>
+      <li>قف على STP</li>
+      <li>اكتب 1234</li>
+      <li>ستظهر صفحة المفاتيح</li>
+     </ol>
+    </div>
+   </details>
+
+   <details>
+    <summary>Neotion Box</summary>
+    <div class="steps">
+     <ol>
+      <li>اضغط Menu</li>
+      <li>ادخل الرقم 1234</li>
+      <li>ستظهر قائمة المفاتيح</li>
+      <li>اختر نظام التشفير بالاسهم</li>
+      <li>ادخل المفاتيح</li>
+     </ol>
+    </div>
+   </details>
+
+   <details>
+    <summary>Strong (Keys)</summary>
+    <div class="steps">
+     <ol>
+      <li>اكتب الرقم 8282</li>
+      <li>ستظهر صفحة المفاتيح</li>
+     </ol>
+    </div>
+   </details>
+
+   <details>
+    <summary>Strong 3680</summary>
+    <div class="steps">
+     <ol>
+      <li>اضغط Menu</li>
+      <li>اذهب الى Information System</li>
+      <li>اكتب الرقم 7799 او 8282 او 6969</li>
+      <li>ستظهر ايقونة تغيير الاكواد</li>
+     </ol>
+    </div>
+   </details>
+
+   <details>
+    <summary>Citizen</summary>
+    <div class="steps">
+     <ol>
+      <li>اضغط Menu</li>
+      <li>اكتب 1976</li>
+      <li>بعد تنزيل السوفتوير اضغط Menu ثم 0000 ثم 1976</li>
+      <li>للدخول للكي اضغط Menu</li>
+      <li>اذهب الى System Setting</li>
+      <li>اضغط Info</li>
+      <li>سيظهر حرف H</li>
+      <li>ادخل 9876</li>
+     </ol>
+    </div>
+   </details>
+
+   <details>
+    <summary>Discovery</summary>
+    <div class="steps">
+     <ol>
+      <li>اضغط الزر الازرق ثلاث مرات</li>
+      <li>ستظهر صفحة المفاتيح</li>
+     </ol>
+    </div>
+   </details>
+
+   <details>
+    <summary>Orion</summary>
+    <div class="steps">
+     <ol>
+      <li>قف على الالعاب</li>
+      <li>ادخل الرقم 19370</li>
+      <li>ادخل الرقم 2486</li>
+      <li>اضغط OK</li>
+      <li>انزل الى السطر الثالث</li>
+      <li>اضغط OK</li>
+      <li>ادخل 0000</li>
+      <li>ستظهر صفحة تغيير المفاتيح</li>
+     </ol>
+    </div>
+   </details>
+
+   <details>
+    <summary>Fortec 9800</summary>
+    <div class="steps">
+     <ol>
+      <li>ادخل على قائمة Common Interface</li>
+      <li>ادخل الرقم 9244</li>
+      <li>اضغط OK</li>
+      <li>ستظهر صفحة المفاتيح</li>
+     </ol>
+    </div>
+   </details>
+   <details>
+    <summary>Hyundai 5000 – هيونداي 5000</summary>
+    <div class="steps">
+     <ol>
+      <li>اضغط MENU</li>
+      <li>اختر EditCode</li>
+      <li>سيظهر جدول أنظمة التشفير</li>
+      <li>الأزرار: <br />Red = Viaccess <br />Green = Irdeto <br />Yellow = Nagravision <br />Blue = Seca</li>
+     </ol>
+    </div>
+   </details>
+   <details>
+    <summary>Hyundai – هيونداي</summary>
+    <div class="steps">
+     <ol>
+      <li>اضغط MENU</li>
+      <li>اختر EditCode</li>
+      <li>سيظهر جدول أنظمة التشفير</li>
+      <li>Red = Viaccess / Green = Irdeto / Yellow = Nagravision / Blue = Seca</li>
+     </ol>
+    </div>
+   </details>
+   <details>
+    <summary>High Vision – هاي فيجن</summary>
+    <div class="steps">
+     <ol>
+      <li>اضغط MENU</li>
+      <li>اختر STB Configuration</li>
+      <li>ادخل 1234</li>
+      <li>اختر نظام التشفير</li>
+      <li>اختر Provider وعدل القيم بالأسهم</li>
+     </ol>
+    </div>
+   </details>
+   <details>
+    <summary>Starsat SRX 550 D Plus</summary>
+    <div class="steps">
+     <ol>
+      <li>اضغط MENU</li>
+      <li>Installation</li>
+      <li>Input Code</li>
+      <li>ادخل Provider + Index + Key</li>
+      <li>اضغط Enter</li>
+     </ol>
+    </div>
+   </details>
+   <details>
+    <summary>Smart M5</summary>
+    <div class="steps">
+     <ol>
+      <li>MENU</li>
+      <li>Conditional Access</li>
+      <li>EditCode → OK</li>
+      <li>اختر نظام التشفير</li>
+     </ol>
+    </div>
+   </details>
+   <details>
+    <summary>Sanyusat Ultra – سانيوسات الترا</summary>
+    <div class="steps">
+     <ol>
+      <li>MENU</li>
+      <li>EditCode</li>
+      <li>اختر النظام بالألوان: <br />Red = Viaccess <br />Green = Irdeto <br />Yellow = Nagravision <br />Blue = Seca</li>
+     </ol>
+    </div>
+   </details>
+   <details>
+    <summary>Smart D4</summary>
+    <div class="steps">
+     <ol>
+      <li>MENU</li>
+      <li>Installation</li>
+      <li>Edit Code</li>
+      <li>اختر نظام التشفير</li>
+      <li>اختر Provider و Index وادخل الكود</li>
+     </ol>
+    </div>
+   </details>
+   <details>
+    <summary>Camax 780</summary>
+    <div class="steps">
+     <ol>
+      <li>MENU</li>
+      <li>EditCode</li>
+      <li>اختر النظام بالألوان</li>
+      <li>ادخل الكود</li>
+     </ol>
+    </div>
+   </details>
+   <details>
+    <summary>MediaStar – Hi-Tech</summary>
+    <div class="steps">
+     <ol>
+      <li>MENU → 2580</li>
+      <li>اضغط BACK ثم 0</li>
+      <li>اختر نظام التشفير</li>
+      <li>ادخل الكود</li>
+     </ol>
+    </div>
+   </details>
+   <details>
+    <summary>Metabox – ميتابوكس</summary>
+    <div class="steps">
+     <ol>
+      <li>MENU</li>
+      <li>CodeEdit</li>
+      <li>ادخل 0000</li>
+      <li>اختر النظام بالألوان</li>
+      <li>ادخل الكود</li>
+     </ol>
+    </div>
+   </details>
+   <details>
+    <summary>Neosat 4620</summary>
+    <div class="steps">
+     <ol>
+      <li>استخدم Master Codes من القائمة العامة</li>
+      <li>2778 / 1506 / 8888 / 9999</li>
+      <li>ادخل Code Menu ثم BISS</li>
+     </ol>
+    </div>
+   </details>
+   <details>
+    <summary>Echostar 2200</summary>
+    <div class="steps">
+     <ol>
+      <li>Restart الجهاز</li>
+      <li>MENU → Access Condition → Module</li>
+      <li>OK مرتين</li>
+      <li>Setup → Edit CAS Key</li>
+      <li>اختر Viaccess</li>
+      <li>اختر Provider ID</li>
+      <li>ادخل Keys بصيغة HEX</li>
+     </ol>
+    </div>
+   </details>
+   <details>
+    <summary>Revolution Galaxy 60/60 – ريفولوشن جالاكسي</summary>
+    <div class="steps">
+     <ol>
+      <li>MENU ثم أدخل 8888</li>
+      <li>باستخدام الزر الأزرق اختر نظام التشفير</li>
+      <li>ابحث عن الباقة أو اختر السطر الأخير لإضافة مفاتيح</li>
+      <li>أدخل الأرقام والحروف ثم OK للحفظ</li>
+     </ol>
+    </div>
+   </details>
+   <details>
+    <summary>Galaxy Innovation S2235 Plus – جالاكسي إنوفيشن</summary>
+    <div class="steps">
+     <ol>
+      <li>اضغط INFO</li>
+      <li>اضغط الزر الأحمر مرتين</li>
+      <li>أدخل الشفرة</li>
+      <li>OK للحفظ</li>
+     </ol>
+    </div>
+   </details>
+   <details>
+    <summary>PINACLE IP9500 HD – بيناكل</summary>
+    <div class="steps">
+     <ol>
+      <li>MENU</li>
+      <li>Réglage</li>
+      <li>Extension</li>
+      <li>Patch Menu</li>
+      <li>اختر نظام التشفير وأدخل المفاتيح</li>
+     </ol>
+    </div>
+   </details>
+   <details>
+    <summary>ATLAS HD 200s / Atlas 100 HD – أطلس</summary>
+    <div class="steps">
+     <ol>
+      <li>MENU</li>
+      <li>Contrôle d'accès</li>
+      <li>Editeur de clés</li>
+      <li>اختر النظام وأدخل الشفرة ثم حفظ</li>
+     </ol>
+    </div>
+   </details>
+   <details>
+    <summary>Cristor Atlas E – كريستور أطلس</summary>
+    <div class="steps">
+     <ol>
+      <li>MENU</li>
+      <li>Control d'accès</li>
+      <li>Key Editor</li>
+      <li>اختر النظام وأدخل الشفرة ثم حفظ</li>
+     </ol>
+    </div>
+   </details>
+   <details>
+    <summary>Condor 9090 HD Plus – كوندور</summary>
+    <div class="steps">
+     <ol>
+      <li>MENU</li>
+      <li>Advanced</li>
+      <li>أدخل 1234 من الريموت</li>
+      <li>اختر نظام التشفير وأدخل الشفرة</li>
+     </ol>
+    </div>
+   </details>
+   <details>
+    <summary>Echolink Open Vu2 / Open Vu3 – إيكولنك</summary>
+    <div class="steps">
+     <ol>
+      <li>قف على قناة مشفرة</li>
+      <li>اضغط F1 ثم 0000</li>
+      <li>اختر نظام التشفير</li>
+      <li>أدخل الشفرة ثم OK</li>
+     </ol>
+    </div>
+   </details>
+   <details>
+    <summary>Goldvision SmartBox 3 – جولد فيجن</summary>
+    <div class="steps">
+     <ol>
+      <li>MENU</li>
+      <li>Réglage système</li>
+      <li>Système TV</li>
+      <li>أدخل 0000</li>
+      <li>اضغط الزر الأحمر لإدخال المفاتيح</li>
+     </ol>
+    </div>
+   </details>
+   <details>
+    <summary>Vision S2 – فيجن</summary>
+    <div class="steps">
+     <ol>
+      <li>MENU</li>
+      <li>أدخل 8888</li>
+      <li>تظهر صفحة الشفرات</li>
+      <li>اختر النظام وأدخل الشفرة ثم حفظ</li>
+     </ol>
+    </div>
+   </details>
+
+   <details>
+    <summary>Techno 6000 Plus</summary>
+    <div class="steps">
+     <ol>
+      <li>قف على قناة مشفرة</li>
+      <li>ادخل الرقم 9911</li>
+      <li>ستظهر قائمة المفاتيح</li>
+     </ol>
+    </div>
+   </details>
+   <details>
+    <summary>Astra / Amtech / Camax 777 – عائلة أسترا و أم تك و كامكس</summary>
+    <div class="steps">
+     <ol>
+      <li>اضغط MENU</li>
+      <li>قف على STB Setting</li>
+      <li>اكتب 1234 بسرعة</li>
+      <li>تظهر قائمة الشفرات</li>
+     </ol>
+    </div>
+   </details>
+
+   <details>
+    <summary>Topfield – توب فيلد</summary>
+    <div class="steps">
+     <ol>
+      <li>MENU</li>
+      <li>System Screen</li>
+      <li>اكتب 121 بسرعة</li>
+      <li>تظهر شاشة Edit Code</li>
+     </ol>
+    </div>
+   </details>
+
+   <details>
+    <summary>Discovery – ديسكفري</summary>
+    <div class="steps">
+     <ol>
+      <li>اضغط الزر الأزرق 3 مرات</li>
+      <li>تظهر لوحة المفاتيح</li>
+      <li>اختر النظام وأدخل الشفرة</li>
+     </ol>
+    </div>
+   </details>
+
+   <details>
+    <summary>M-Vision – ام فيجن</summary>
+    <div class="steps">
+     <ol>
+      <li>MENU</li>
+      <li>اكتب 9999</li>
+      <li>تظهر قائمة الشفرات</li>
+     </ol>
+    </div>
+   </details>
+
+   <details>
+    <summary>Technosat – تكنو سات</summary>
+    <div class="steps">
+     <ol>
+      <li>قف على قناة مشفرة</li>
+      <li>اكتب 9911</li>
+      <li>اختر نظام التشفير وأدخل الشفرة</li>
+     </ol>
+    </div>
+   </details>
+
+   <details>
+    <summary>Techview – تيك فيو</summary>
+    <div class="steps">
+     <ol>
+      <li>اضغط الزر الأحمر 4 مرات</li>
+      <li>تظهر قائمة أنظمة التشفير</li>
+      <li>اختر النظام وأدخل الشفرة</li>
+     </ol>
+    </div>
+   </details>
+
+   <details>
+    <summary>Starsat 1800 – ستار سات 1800</summary>
+    <div class="steps">
+     <ol>
+      <li>MENU</li>
+      <li>Code Edit</li>
+      <li>اختر Nagravision</li>
+      <li>Provider 4001</li>
+      <li>ادخل Key 86 و 87</li>
+     </ol>
+    </div>
+   </details>
+
+   <details>
+    <summary>Truman Toronto / Vega – ترومان تورنتو و فيجا</summary>
+    <div class="steps">
+     <ol>
+      <li>MENU</li>
+      <li>Language Setting</li>
+      <li>اضغط Save بالزر الأحمر</li>
+      <li>اكتب 2528 ثم Enable</li>
+      <li>اضغط الزر الأحمر</li>
+      <li>اكتب 9999</li>
+      <li>تظهر قائمة الأكواد</li>
+     </ol>
+    </div>
+   </details>
+
+   <details>
+    <summary>Truman TM100 / TM200 – ترومان</summary>
+    <div class="steps">
+     <ol>
+      <li>MENU</li>
+      <li>Parental Control</li>
+      <li>اكتب 2658</li>
+      <li>اذهب إلى Installation</li>
+      <li>تظهر قائمة Edit Code</li>
+     </ol>
+    </div>
+   </details>
+
+   <details>
+    <summary>Sky Box – سكاي بوكس</summary>
+    <div class="steps">
+     <ol>
+      <li>MENU</li>
+      <li>اكتب 9317</li>
+      <li>اختر النظام بالألوان</li>
+      <li>ادخل الشفرة</li>
+     </ol>
+    </div>
+   </details>
+
+   <details>
+    <summary>Samsung Receiver – سامسونج</summary>
+    <div class="steps">
+     <ol>
+      <li>اضغط 0 ثم MENU</li>
+      <li>Keys Editor</li>
+      <li>Reset Keys</li>
+      <li>اختر النظام</li>
+      <li>أدخل Key 00 أو 01</li>
+      <li>EXIT للحفظ</li>
+     </ol>
+    </div>
+   </details>
+   <details>
+    <summary>Tech View</summary>
+    <div class="steps">
+     <ol>
+      <li>اضغط الزر الاحمر 4 مرات</li>
+      <li>ستظهر قائمة المفاتيح</li>
+     </ol>
+    </div>
+   </details>
+   <details>
+    <summary>Echolink Open VU2 / Open VU3</summary>
+    <div class="steps">
+     <ol>
+      <li>وقف على قناة مشفرة</li>
+      <li>F1 + 0000</li>
+     </ol>
+    </div>
+   </details>
+   <details>
+    <summary>معالج GX</summary>
+    <div class="steps">
+     <ol>
+      <li>زر الإضافة المباشر (+): في بعض الموديلات الحديثة لعام 2026، يكفي الضغط على زر (+) أو زر (Page Up) وأنت على القناة لتظهر خانة الشفرة.</li>
+      <li>الزر الأخضر أو الأحمر: في موديلات مثل Salik، قد يكون الاختصار هو الضغط على الزر الأخضر، ثم كتابة الشفرة.</li>
+     </ol>
+    </div>
+   </details>
+
+   <details>
+    <summary>Goldvision 1600</summary>
+    <div class="steps">
+     <ol>
+      <li>Menu + 19370 + 2486 + Exit</li>
+     </ol>
+    </div>
+   </details>
+   <details>
+    <summary>Starsat (العادي)</summary>
+    <div class="steps">
+     <ol>
+      <li>كود تفعيل القائمة السرية (إذا لزم)</li>
+      <li>F1 + 000</li>
+     </ol>
+    </div>
+   </details>
+   <details>
+    <summary>أجهزة الصن بلص (معظم الشعبي)</summary>
+    <div class="steps">
+     <ol>
+      <li>كود تفعيل القائمة السرية (إذا لزم)</li>
+      <li>Audio + 000</li>
+     </ol>
+    </div>
+   </details>
+   <details>
+    <summary>Senator (بلوتوث) | سيناتور | سينتور</summary>
+    <div class="steps">
+     <ol>
+      <li>info</li>
+      <li>0</li>
+      <li>او 0 مباشرة</li>
+      <li>كود تفعيل القائمة السرية (إذا لزم)</li>
+      <li>Audio + 000</li>
+     </ol>
+    </div>
+   </details>
+   <details>
+    <summary>Truman (HD) | ترومان</summary>
+    <div class="steps">
+     <ol>
+      <li>كود تفعيل القائمة السرية (إذا لزم)</li>
+      <li>Menu + 8888</li>
+     </ol>
+    </div>
+   </details>
+   <details>
+    <summary>Tiger (Z series / High class) | تايجر</summary>
+    <div class="steps">
+     <ol>
+      <li>F1 + 333</li>
+      <li>كود تفعيل القائمة السرية (إذا لزم)</li>
+      <li>F1 + 000</li>
+     </ol>
+    </div>
+   </details>
+   <details>
+    <summary>أجهزة الأندرويد (مثل Mecool/Ghost)</summary>
+    <div class="steps">
+     <ol>
+      <li>تطبيق (Plugin) أو الضغط الطويل على Info</li>
+     </ol>
+    </div>
+   </details>
+   <!-- ===== New Receivers Batch – Novatek / SunPlus / GX6605 ===== -->
+
+   <details>
+    <summary>Perfect & Camax & Novatek Receivers – البرفكس و كامكس و معالج نوفاتك</summary>
+    <ol>
+     <li>قف على قناة مشفرة</li>
+     <li>اكتب 8612 من الريموت</li>
+     <li>تظهر شاشة إدخال الشفرة مباشرة</li>
+     <li>أدخل الشفرة ثم OK</li>
+    </ol>
+   </details>
+
+   <details>
+    <summary>Qmax H2 Classic (SunPlus) – كيوماكس صن بلص</summary>
+    <ol>
+     <li>MENU</li>
+     <li>Media / Multimedia</li>
+     <li>OK</li>
+     <li>أدخل 1506 → تظهر كلمة Patch</li>
+     <li>ادخل الشفرة المطلوبة</li>
+    </ol>
+   </details>
+
+   <details>
+    <summary>Royal 100 / 200 – رويال</summary>
+    <ol>
+     <li>قف على أي قناة</li>
+     <li>اكتب 8899</li>
+     <li>قف على القناة المشفرة</li>
+     <li>اضغط الزر الأصفر</li>
+     <li>أدخل الشفرة ثم OK</li>
+    </ol>
+   </details>
+
+   <details>
+    <summary>GX6605 Receivers – معالج GX6605</summary>
+    <ol>
+     <li>قف على قناة مشفرة</li>
+     <li>اضغط الزر الأزرق أو الأخضر أو F1 (حسب الريموت)</li>
+     <li>أدخل الشفرة مباشرة</li>
+    </ol>
+   </details>
+
+   <details>
+    <summary>Grohy / Helyo Tech / Rony / Astra Mini – الكترونيك هاوس</summary>
+    <ol>
+     <li>اضغط 9878</li>
+     <li>MENU → Key Edit</li>
+     <li>اختر BISS</li>
+     <li>اضغط الزر الأخضر لإضافة شفرة</li>
+    </ol>
+   </details>
+
+   <details>
+    <summary>Star Gold SG-750 – ستار جولد</summary>
+    <ol>
+     <li>قف على القناة المشفرة</li>
+     <li>اضغط الزر الأخضر</li>
+     <li>اكتب الشفرة مباشرة</li>
+     <li>OK للحفظ</li>
+    </ol>
+   </details>
+
+   <details>
+    <summary>Discovery 555 Omega – ديسكفري أوميجا</summary>
+    <ol>
+     <li>MENU + 8888</li>
+     <li>اخرج من القائمة</li>
+     <li>اضغط زر GO TO</li>
+     <li>أدخل الشفرة</li>
+    </ol>
+   </details>
+
+   <details>
+    <summary>Truman X2 / X3 / X5 Mini HD – ترومان</summary>
+    <ol>
+     <li>MENU</li>
+     <li>اكتب 8686</li>
+     <li>تظهر كلمة Patch</li>
+     <li>ادخل شفرة BISS</li>
+    </ol>
+   </details>
+
+   <details>
+    <summary>Royal 9000 Plus – رويال 9000</summary>
+    <ol>
+     <li>MENU + 8888 أو INFO مرتين</li>
+     <li>اضغط الزر الأخضر</li>
+     <li>اكتب الشفرة ثم OK</li>
+    </ol>
+   </details>
+
+   <details>
+    <summary>TechSat X999 / Tiger 999AG – تك سات / تايجر</summary>
+    <ol>
+     <li>MENU → Settings → Last Option</li>
+     <li>XCam → OK</li>
+     <li>Patch → OK</li>
+     <li>أدخل الشفرة</li>
+    </ol>
+   </details>
+
+   <details>
+    <summary>Truman TM H1 Plus – ترومان H1</summary>
+    <ol>
+     <li>قف على القناة المشفرة</li>
+     <li>اضغط الزر الأصفر</li>
+     <li>اكتب الشفرة ثم OK</li>
+    </ol>
+   </details>
+
+   <details>
+    <summary>SuperMax Receivers – سوبر ماكس</summary>
+    <ol>
+     <li>MENU</li>
+     <li>Settings</li>
+     <li>XCam Setup</li>
+     <li>Patch → أدخل الشفرة</li>
+    </ol>
+   </details>
+
+   <details>
+    <summary>Avatar 1000 – أفاتار</summary>
+    <ol>
+     <li>قف على القناة</li>
+     <li>اكتب 5566</li>
+     <li>أدخل الشفرة ثم OK</li>
+    </ol>
+   </details>
+
+   <details>
+    <summary>Star Net HD / Target HD 907 – ستار نت / تارجت</summary>
+    <ol>
+     <li>MENU</li>
+     <li>Setting</li>
+     <li>XCam Setup</li>
+     <li>Patch → أدخل الشفرة</li>
+    </ol>
+   </details>
+
+   <details>
+    <summary>Starsat 6969 HD – ستار سات 6969</summary>
+    <ol>
+     <li>قف على قناة مشفرة</li>
+     <li>اضغط INFO + 1</li>
+     <li>اكتب الشفرة</li>
+    </ol>
+   </details>
+
+   <details>
+    <summary>Fortec 999 HD – فورتك</summary>
+    <ol>
+     <li>MENU</li>
+     <li>اكتب 8888</li>
+     <li>اختر BISS</li>
+     <li>أدخل الشفرة</li>
+    </ol>
+   </details>
+
+   <details>
+    <summary>Sky Xpress 2 HD – سكاي إكسبريس</summary>
+    <ol>
+     <li>MENU → TV System</li>
+     <li>اكتب 0000</li>
+     <li>اضغط الزر الأحمر</li>
+     <li>اختر BISS وأدخل الشفرة</li>
+    </ol>
+   </details>
+
+   <details>
+    <summary>Star Track ST-2016HD – ستار تراك</summary>
+    <ol>
+     <li>اضغط زر BISS</li>
+     <li>لو لم يظهر، قف على القناة واضغط 9878</li>
+     <li>اضغط BISS مرة أخرى</li>
+    </ol>
+   </details>
+
+   <details>
+    <summary>Blue Star 111 Mini – بلو ستار</summary>
+    <ol>
+     <li>اضغط INFO</li>
+     <li>اضغط F3</li>
+     <li>أدخل الشفرة</li>
+    </ol>
+   </details>
+
+   <details>
+    <summary>Goldvision Smartbox3</summary>
+    <div class="steps">
+     <ol>
+      <li>Menu → Réglage Système → Système TV → 0000 → زر أحمر</li>
+     </ol>
+    </div>
+   </details>
+
+   <details>
+    <summary>Vision S2</summary>
+    <div class="steps">
+     <ol>
+      <li>Menu + 8888</li>
+      <li>تظهر صفحة الشفرات حسب النظام</li>
+     </ol>
+    </div>
+   </details>
+
+   <details>
+    <summary>Starsat 9850 HD / 3000 HD / 3100 HD / 9800 / 9800 Platinum</summary>
+    <div class="steps">
+     <ol>
+      <li>Menu + 8888</li>
+      <li>تظهر خانة الشفرات</li>
+     </ol>
+    </div>
+   </details>
+
+   <details>
+    <summary>Starsat 7100 FTA / 8100 FTA</summary>
+    <div class="steps">
+     <ol>
+      <li>وقف على القناة المشفرة</li>
+      <li>اضغط 9936</li>
+      <li>تظهر نافذة الشفرات</li>
+     </ol>
+    </div>
+   </details>
+
+   <details>
+    <summary>Starsat 2000 HD Hyper</summary>
+    <div class="steps">
+     <ol>
+      <li>F1 + 333</li>
+     </ol>
+    </div>
+   </details>
+
+   <details>
+    <summary>Astra 9400</summary>
+    <div class="steps">
+     <ol>
+      <li>اذهب إلى ضبط الجهاز</li>
+      <li>اضغط 1234</li>
+     </ol>
+    </div>
+   </details>
+
+   <details>
+    <summary>Qmax 999 (H1G3 / H4 Plus / H3 Plus / H5 / H6 / H2 Mini / V2 / V3 وغيرها)</summary>
+    <div class="steps">
+     <ol>
+      <li>وقف على القناة المشفرة</li>
+      <li>اضغط زر PAGE+</li>
+      <li>تظهر مربع الشفرات</li>
+      <li>ادخل الشفرة بالزر الملون ثم OK</li>
+     </ol>
+    </div>
+   </details>
+
+   <details>
+    <summary>Samsat 90 HD</summary>
+    <div class="steps">
+     <ol>
+      <li>Config + 2020 = Active Cast</li>
+      <li>Outils → Cas</li>
+     </ol>
+    </div>
+   </details>
+
+   <details>
+    <summary>أجهزة Strong عامة</summary>
+    <div class="steps">
+     <ol>
+      <li>وقف على القناة → 8282 (تظهر كل الشفرات ما عدا Biss)</li>
+      <li>لإظهار Biss: 8280</li>
+     </ol>
+    </div>
+   </details>
+
+   <details>
+    <summary>Power Sky + Arion + Ausustar6410 + Houston 8100 وكل الكلون</summary>
+    <div class="steps">
+     <ol>
+      <li>Menu → Tools → Game</li>
+      <li>اكتب 19370</li>
+      <li>ثم اكتب 2486</li>
+      <li>Edit Key</li>
+     </ol>
+    </div>
+   </details>
+
+   <details>
+    <summary>أجهزة Stream (1100 / 1000 / 8200 / 8300 / 8400)</summary>
+    <div class="steps">
+     <ol>
+      <li>أصفر → أزرق → أخضر → Menu</li>
+      <li>تظهر جدول الشفرات</li>
+     </ol>
+    </div>
+   </details>
+
+   <details>
+    <summary>Samsat 560</summary>
+    <div class="steps">
+     <ol>
+      <li>حدث الجهاز أولاً</li>
+      <li>Menu + 2020</li>
+      <li>Menu → Outil → Key Editor</li>
+     </ol>
+    </div>
+   </details>
+
+   <details>
+    <summary>Star Sat SR-8800 HD</summary>
+    <div class="steps">
+     <ol>
+      <li>F1</li>
+      <li>333</li>
+      <li>OK</li>
+      <li>ادخل الشفرة</li>
+     </ol>
+    </div>
+   </details>
+
+   <details>
+    <summary>Starsat SR-S10 New</summary>
+    <div class="steps">
+     <ol>
+      <li>اذهب إلى القناة</li>
+      <li>Info</li>
+      <li>ادخل 1234 متتالي</li>
+      <li>اكتب الكود</li>
+     </ol>
+    </div>
+   </details>
+
+   <details>
+    <summary>Starsat 1200 / 1200D Super / 1400D / 1400D Super</summary>
+    <div class="steps">
+     <ol>
+      <li>Menu + 0</li>
+      <li>أو زر أصفر + 0</li>
+     </ol>
+    </div>
+   </details>
+
+   <details>
+    <summary>Condor 5000 FTA+CI</summary>
+    <div class="steps">
+     <ol>
+      <li>Menu + 1234</li>
+      <li>اختر النظام وادخل الكود</li>
+     </ol>
+    </div>
+   </details>
+
+   <details>
+    <summary>Starsat 3000 HD / 3100 HD</summary>
+    <div class="steps">
+     <ol>
+      <li>Menu + 8888</li>
+      <li>اختر نظام التشفير حسب اللون</li>
+      <li>لـ Biss/DCW: ادخل البروفايل والإندكس ثم الشفرة</li>
+     </ol>
+    </div>
+   </details>
+
+   <details>
+    <summary>FTE Maximal S80</summary>
+    <div class="steps">
+     <ol>
+      <li>Menu + 2020 + Outils + Key Editor</li>
+     </ol>
+    </div>
+   </details>
+
+   <details>
+    <summary>Tecnosat TS-22 Mini HD / Newmax NM-774 Mini HD</summary>
+    <div class="steps">
+     <ol>
+      <li>8899 ثم OK لتفعيل الباتش</li>
+      <li>وقف على القناة المشفرة</li>
+      <li>زر PREV أو NEXT لتعديل الشفرة</li>
+     </ol>
+    </div>
+   </details>
+
+   <div class="note">
+    ملاحظة هامة:<br />
+    معظم الأجهزة تحتاج تفعيل الباتش أولاً قبل ظهور قائمة الشفرات.<br />
+    هتقف على القناة وتكتب (8899 أو 7931 أو 2020 أو 8888 أو غيرها) تأكد من تحديث الجهاز بآخر سوفتوير إذا لم تظهر القوائم.
+   </div>
+  </div>
+
+  <!-- form -->
+  <div id="deviceForm" class="form-overlay">
+   <div class="form-box">
+    <h2>اكتب بيانات جهازك</h2>
+    <input type="text" id="model" placeholder="Model / اسم الرسيفر" />
+    <input type="text" id="software" placeholder="نوع معالج الرسيفر لو عارفو" />
+    <textarea id="notes" placeholder="ملاحظات إضافية"></textarea>
+    <button id="sendBtn">إرسال على واتساب</button>
+    <button id="closeForm">إغلاق</button>
+   </div>
+  </div>
+  <!-- footer -->
+  <footer>
+   <p>دليل شامل وكامل لإدخال شفرات BISS | 2026</p>
+   <p>جميع الحقوق محفوظة</p>
+   <!-- whatsapp -->
+   <div class="footer-whatsapp">
+    <a href="https://wa.me/201210913547" target="_blank">
+     <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" />
+     <span>Chat on WhatsApp</span>
+    </a>
+   </div>
+  </footer>
+
+  <!-- js file -->
+  <script src="./script.js"></script>
+ </body>
+</html>
