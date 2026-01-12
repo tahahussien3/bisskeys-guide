@@ -224,3 +224,27 @@ footer {
  border: none;
  cursor: pointer;
 }
+
+/* visitors */
+.visitor-box {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: rgba(0, 0, 0, 0.75);
+    backdrop-filter: blur(8px);
+    color: #00ffcc;
+    padding: 12px 18px;
+    border-radius: 14px;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    box-shadow: 0 0 15px rgba(0,255,200,0.4);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    z-index: 9999;
+}
+
+.visitor-box span {
+    color: #ffffff;
+    font-weight: bold;
+}
