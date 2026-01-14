@@ -63,8 +63,7 @@ searchInput.addEventListener("input", function () {
  });
 });
 
-
-// 
+//
 const openBtn = document.getElementById("openForm");
 const closeBtn = document.getElementById("closeForm");
 const form = document.getElementById("deviceForm");
@@ -82,3 +81,26 @@ sendBtn.onclick = () => {
 
  window.open("https://wa.me/201210913547?text=" + text, "_blank");
 };
+
+//copy steps
+document.querySelectorAll("details .steps ol").forEach((ol) => {
+ const btn = document.createElement("button");
+ btn.className = "copy-all";
+ btn.innerHTML = "<span>📋</span> نسخ الخطوات";
+
+ btn.onclick = () => {
+  let text = "";
+  ol.querySelectorAll("li").forEach((li, i) => {
+   text += i + 1 + "- " + li.innerText.trim() + "\n";
+  });
+
+  navigator.clipboard.writeText(text);
+
+  btn.innerHTML = "✅ تم النسخ";
+  setTimeout(() => {
+   btn.innerHTML = "<span>📋</span> نسخ الخطوات";
+  }, 1500);
+ };
+
+ ol.after(btn);
+});
