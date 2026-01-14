@@ -224,6 +224,7 @@ footer {
  border: none;
  cursor: pointer;
 }
+<<<<<<< HEAD
 
 /* copy steps*/
 .copy-all {
@@ -250,3 +251,5 @@ footer {
 .copy-all span {
     font-size: 18px;
 }
+=======
+>>>>>>> 6d8384d8bb184c10c6f5606b8d04606d94fd2f85
